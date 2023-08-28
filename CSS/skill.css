@@ -1,0 +1,59 @@
+.skill{
+    font-size: 30px;
+}
+
+.img1{
+    width: 100px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 20px;
+}
+
+.img2 {
+    width: 100px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 20px;
+}
+
+.img3 {
+    width: 100px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 20px;
+}
+
+.img4 {
+    width: 100px;
+    top: 30px;
+    left: 20%;
+    position: relative
+}
+
+
+.h{
+    width: 500px;
+    top: 32px;
+    left: 15%;
+    position: relative;
+    font-size: 20px;
+}
+.p{
+    width: 500px;
+    top: 35px;
+    left: 10%;
+    position: relative;
+    font-size: 15px;
+}
+
+.presentage{
+    width: content-box;
+    /*top: 5px;*/
+    margin-top: 10px;
+    left: 50%;
+    position: relative;
+    font-size: 20px;
+}

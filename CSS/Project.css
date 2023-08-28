@@ -1,0 +1,186 @@
+
+/*section{*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: relative;*/
+/*}*/
+.box>a>img{
+    width: 200px;
+    top: 150px;
+    left: 80%;
+    z-index: 2;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+
+.box2>a>img{
+    width: 200px;
+    top: 280px;
+    left: 80%;
+    z-index: 2;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+
+.box3>a>img{
+    width: 200px;
+    top: 410px;
+    left: 80%;
+    z-index: 2;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+
+.box4>a>img{
+    width: 100px;
+    top: 540px;
+    left: 80%;
+    z-index: 2;
+    transform: translateX(-50%);
+    position: absolute;
+    margin: 5px;
+
+}
+
+
+.box5>a>img{
+    width: 100px;
+    top: 755px;
+    left: 80%;
+    z-index: 2;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+
+.project{
+    font-size: 30px;
+}
+
+.box>h3{
+    width: 500px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 20px;
+}
+
+.box>p{
+    width: 500px;
+    top: 33px;
+    left: 15%;
+    position: relative;
+    font-size: 15px;
+}
+
+.box>nav>a>button{
+    width: content-box;
+    top: 20px;
+    left: 60%;
+    position: relative;
+    font-size: 20px;
+}
+
+
+
+.box2>h3{
+    width: 500px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 20px;
+}
+
+.box2>p{
+    width: 500px;
+    top: 32px;
+    left: 15%;
+    position: relative;
+    font-size: 15px;
+}
+
+.box2>nav>a>button{
+    width: content-box;
+    top: 30px;
+    left: 60%;
+    position: relative;
+    font-size: 20px;
+}
+
+
+.box3>h3{
+    width: 500px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 25px;
+}
+
+.box3>p{
+    width: 500px;
+    top: 32px;
+    left: 15%;
+    position: relative;
+    font-size: 15px;
+}
+
+.box3>nav>a>button{
+    width: content-box;
+    top: 29px;
+    left: 60%;
+    position: relative;
+    font-size: 20px;
+}
+
+
+.box4>h3{
+    width: 500px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 25px;
+}
+
+.box4>p{
+    width: 500px;
+    top: 32px;
+    left: 15%;
+    position: relative;
+    font-size: 15px;
+}
+
+.box4>nav>a>button{
+    width: content-box;
+    top: 29px;
+    left: 60%;
+    position: relative;
+    font-size: 20px;
+}
+
+.box5>h3{
+    width: 500px;
+    top: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 25px;
+}
+
+.box5>p{
+    width: 500px;
+    top: 32px;
+    left: 15%;
+    position: relative;
+    font-size: 15px;
+}
+
+.box5>nav>a>button{
+    width: content-box;
+    top: 29px;
+    left: 60%;
+    position: relative;
+    font-size: 20px;
+}
+
