@@ -1,0 +1,152 @@
+body{
+    position: relative;
+}
+header{
+    position: relative;
+}
+header>img:nth-child(1){
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    left: 23%;
+    top: 18vh;
+    border-radius: 100%;
+}
+header>nav{
+    position: absolute;
+    right: 0;
+}
+header>nav>h2>a{
+    margin: 2px 20px;
+}
+header>h3{
+    margin: 0;
+}
+.mainphoto{
+    width: 100%;
+}
+.t1{
+    width: content-box;
+    position: absolute;
+    left: 60%;
+    top: 30vh;
+    font-size: 20px;
+}
+
+.t2{
+    width: content-box;
+    position: absolute;
+    left: 50%;
+    top: 35vh;
+    font-size: 50px;
+}
+
+.t3{
+    width: content-box;
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    font-size: 30px;
+}
+
+.hire{
+    width: content-box;
+    height: content-box;
+    position: absolute;
+    left: 75%;
+    top: 70vh;
+    font-size: 25px;
+}
+.hire>button{
+    background-color: palevioletred;
+    border-radius: 10px 10px 10px 10px;
+}
+.nav{
+    width: content-box;
+    position: absolute;
+    left: 50%;
+    top: 80vh;
+    color: blue;
+    margin: 10px;
+}
+.kavi{
+    width: content-box;
+    top: 150vh;
+    position: absolute;
+    left: 40%;
+    font-size: 35px;
+}
+.description{
+    width: content-box;
+    top: 160vh;
+    position: absolute;
+    left: 40%;
+    font-size: 25px;
+}
+.download{
+    width: content-box;
+    top: 190vh;
+    position: absolute;
+    left: 75%;
+    font-size: 25px;
+}
+.download>button{
+    background-color:orange;
+    border-radius: 10px 10px 10px 10px;
+}
+section{
+    width: content-box;
+    position: relative;
+    margin-left: 70px;
+}
+section>a{
+    margin: 2px 20px;
+}
+footer{
+    width: 100vw;
+    bottom: 0;
+    position: relative;
+}
+
+footer>div{
+    width: 100vw;
+    height:22vw ;
+    display: flex;
+    background-color: rgb(73,1,99);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: absolute;
+}
+
+.footer{
+    width: 500px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.navigate{
+    width: 500px;
+    left: 90%;
+    position: absolute;
+    margin: 5px;
+}
+.from{
+    width: 500px;
+    top: 1px;
+    left: 60%;
+    position: absolute;
+}
+
+.main{
+    width: 500px;
+    left: 40%;
+    position: relative;
+    margin: 5px;
+}
+
+.Contact{
+    color: orange;
+    font-size: 20px;
+}
+.letter{
+    color: white;
+}

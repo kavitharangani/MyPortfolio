@@ -1,50 +1,61 @@
+main{
+    display: flex;
+}
 .skill{
     font-size: 30px;
 }
 
-.img1{
-    width: 100px;
-    top: 30px;
-    left: 20%;
+/*.img1{*/
+/*    width: 100px;*/
+/*    top: 30px;*/
+/*    position: relative;*/
+/*    font-size: 20px;*/
+/*    margin-left: 200px;*/
+/*}*/
+
+/*.img2 {*/
+/*    width: 100px;*/
+/*    top: 30px;*/
+/*    left: 20%;*/
+/*    position: relative;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.img3 {*/
+/*    width: 100px;*/
+/*    top: 30px;*/
+/*    left: 20%;*/
+/*    position: relative;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.img4 {*/
+/*    width: 100px;*/
+/*    top: 30px;*/
+/*    left: 20%;*/
+/*    position: relative*/
+/*}*/
+
+.img{
+    width: 120px;
+    top: 32px;
+    left: 9%;
     position: relative;
     font-size: 20px;
+    margin-left: 280px;
 }
-
-.img2 {
-    width: 100px;
-    top: 30px;
-    left: 20%;
-    position: relative;
-    font-size: 20px;
-}
-
-.img3 {
-    width: 100px;
-    top: 30px;
-    left: 20%;
-    position: relative;
-    font-size: 20px;
-}
-
-.img4 {
-    width: 100px;
-    top: 30px;
-    left: 20%;
-    position: relative
-}
-
 
 .h{
-    width: 500px;
+    width: 350px;
     top: 32px;
     left: 15%;
     position: relative;
     font-size: 20px;
 }
 .p{
-    width: 500px;
+    width: 350px;
     top: 35px;
-    left: 10%;
+    left: 7%;
     position: relative;
     font-size: 15px;
 }
@@ -56,4 +67,13 @@
     left: 50%;
     position: relative;
     font-size: 20px;
+}
+.imgflex{
+    display: flex;
+}
+.hflex{
+    display: flex;
+}
+.pflex{
+    display: flex;
 }
