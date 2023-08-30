@@ -14,9 +14,9 @@
 </head>
 <body>
 <header>
-        <img src="assests/img/home img.jpg" alt="Home Main Photo My img">
+        <img  class="hikg" src="assests/img/home img.jpg" alt="Home Main Photo My img">
         <nav>
-                <h2>
+                <h2 >
                     <a class="home" href="home.html">Home</a>
                     <a href="project.html">Project</a>
                     <a href="skill.html">Skills</a>
@@ -29,8 +29,20 @@
         <img src="assests/img/home.jpg" alt="Home Main Photo" class="mainphoto">
         <h3 class="t1">Hi! I'm </h3>
         <h2 class="t2">Kavindya Tharangani</h2>
-        <h3 class="t3">Fullstack Developer</h3>
 
+    <div class="container">
+        <h3 class="t3">I'm <span class="auto-type"></span></h3>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed= new Typed(".auto-type",{
+            strings:["Coding ...","Designing ...","Developing ..."],
+            typeSpeed :150,
+            backSpeed :150,
+            loop: true
+        })
+    </script>
         <a  class="hire" href="hireMe.html"><button type="button">Hire Me</button></a>
 
 </header>
@@ -49,7 +61,8 @@
 <br>
 <h1 class="kavi">Kavindya Tharangani Kandegedra</h1>
 <p class="description">I’m kavindya tharangani.I live in kurunegala.
-    I’m study at Balalla U.B wanninayaka school.I study at IJSE Institute hire education.</p>
+    I’m study at Balalla U.B wanninayaka school.I study at IJSE Institute hire education.
+</p>
 <a class="download" href="assests/cv/Kavindya%20CV.docx"><button>Download My CV</button></a>
 <br>
 <br>

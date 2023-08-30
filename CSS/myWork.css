@@ -1,0 +1,6 @@
+.main{
+    width: content-box;
+    position: relative;
+    left: 50%;
+    font-size: 30px;
+}

@@ -1,5 +1,6 @@
 body{
     position: relative;
+    overflow-x: hidden;
 }
 header{
     position: relative;
@@ -18,19 +19,45 @@ header>nav{
 }
 header>nav>h2>a{
     margin: 2px 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: animation 8s linear forwards;
+
 }
+
+@keyframes animation {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 header>h3{
     margin: 0;
 }
 .mainphoto{
     width: 100%;
 }
+.hikg{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: my_animations 3s linear forwards;
+}
+@keyframes my_animations {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        width: 350px;
+    }
+
+}
+
 .t1{
     width: content-box;
     position: absolute;
-    left: 60%;
-    top: 30vh;
-    font-size: 20px;
+    left: 50%;
+    top: 34vh;
+    font-size: 29px;
 }
 
 .t2{
@@ -150,3 +177,8 @@ footer>div{
 .letter{
     color: white;
 }
+span{
+    font-size: 40px;
+    font-weight: 700;
+}
+

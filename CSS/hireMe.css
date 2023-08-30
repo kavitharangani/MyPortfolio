@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(190,106,211);
+    overflow-x: hidden;
+}
+.sec{
+    width: content-box;
+    left: 20%;
+    position: absolute;
+    font-size:20px ;
+}
+
+.submit{
+    width: content-box;
+    left: 60%;
+    top: 50vh;
+    position: absolute;
+    background-color: aqua;
+    font-size: 30px;
+    border-radius:10px 10px;
+}
+
+.pro{
+    width: 200px;
+    height: 15px;
+    left: 80%;
+    position: absolute;
+    margin-left: 80px;
+
+}
+
+/*.div{*/
+/*    width: content-box;*/
+/*    height: content-box;*/
+/*    position: absolute;*/
+/*    border: 2px solid black;*/
+/*    left: 20%;*/
+/*}*/
