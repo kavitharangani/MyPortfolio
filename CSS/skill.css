@@ -62,7 +62,7 @@ main{
 
 .presentage{
     width: content-box;
-    /*top: 5px;*/
+    top: 5px;
     margin-top: 10px;
     left: 50%;
     position: relative;
@@ -76,4 +76,60 @@ main{
 }
 .pflex{
     display: flex;
+}
+.progress-title{
+    width: 100%;
+    height: auto;
+}
+.progress-title h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin: 0 0 20px;
+}
+
+/*a{*/
+/*    text-decoration: none !important;*/
+/*}*/
+.progress{
+    height: 20px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px plum;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    border: 10px solid blue;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #171b3c;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c ;
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+}
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+
+}
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+
 }

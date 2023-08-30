@@ -51,21 +51,28 @@ header>h3{
     }
 
 }
-
-.t1{
-    width: content-box;
-    position: absolute;
-    left: 50%;
-    top: 34vh;
-    font-size: 29px;
-}
-
 .t2{
     width: content-box;
     position: absolute;
     left: 50%;
     top: 35vh;
     font-size: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    background: url("https://e7.pngegg.com/pngimages/604/552/png-clipart-white-red-and-gray-slash-illustration-brand-pattern-line-border-border-frame-thumbnail.png");
+    /*background: url("https://e7.pngegg.com/pngimages/460/198/png-clipart-red-and-black-line-art-line-euclidean-computer-file-line-angle-abstract-lines-thumbnail.png");*/
+    /*background: url("https://e7.pngegg.com/pngimages/541/54/png-clipart-green-slash-cool-lines-geometry-color-cool-lines-miscellaneous-blue-thumbnail.png");*/
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite;
+
+}
+
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+
 }
 
 .t3{
@@ -181,4 +188,60 @@ span{
     font-size: 40px;
     font-weight: 700;
 }
+
+
+.t1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 34vh;
+    left: 50%;
+    text-align: center;
+    color: black;
+    font-size: 5em;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+
+}
+.t1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+
+    }
+}
+vedio{
+    object-fit: cover;
+}
+
+.t1 span:nth-child(1){
+    animation-delay: 1s;
+}
+.t1 span:nth-child(2){
+    animation-delay: 2s;
+}
+.t1 span:nth-child(3){
+    animation-delay: 2.5s;
+}
+.t1 span:nth-child(4){
+    animation-delay: 3s;
+}
+.t1 span:nth-child(5){
+    animation-delay: 3.5s;
+}
+
 
