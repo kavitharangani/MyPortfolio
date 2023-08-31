@@ -20,6 +20,7 @@ body>img{
     position: relative;
     left: 70vh;
     top: 7vh;
+
 }
 div>h4{
     width: content-box;
@@ -32,21 +33,6 @@ div>p{
     position: absolute;
     top: 50px;
     left:20px;
-}
-
-.animation{
-    width: 800%;
-    position: relative;
-    margin-left: 500px;
-    top: 20vh;
-    background-repeat: repeat-x;
-    animation: service 15s linear infinite;
-}
-
-@keyframes service {
-    100%{
-        transform: translateX(-500px);
-        }
 }
 .body{
     display: flex;

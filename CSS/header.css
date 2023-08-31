@@ -65,21 +65,21 @@ body{
 
 }
 
-/*.navigation ul li:hover a .icon{*/
-/*    transform: translateY(-25px);*/
-/*}*/
+.navigation ul li:hover a .icon{
+    transform: translateY(-25px);
+}
 
-/*.navigation ul li a .text{*/
-/*    position: absolute;*/
-/*    color: var(--clr);*/
-/*    font-weight: 400;*/
-/*    font-size: 0.75em;*/
-/*    letter-spacing: 0.05em;*/
-/*    transition: 0.5s;*/
-/*    opacity: 0;*/
-/*}*/
+.navigation ul li a .text{
+    position: absolute;
+    color: var(--clr);
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+}
 
-/*.navigation ul li:hover a.text{*/
-/*    opacity: 2;*/
-/*    transform: translateY(20px);*/
-/*}*/
+.navigation ul li:hover a.text{
+    opacity: 2;
+    transform: translateY(20px);
+}

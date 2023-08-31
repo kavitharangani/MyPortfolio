@@ -2,6 +2,9 @@ body{
     /*background-color:rgb(190,106,211);*/
     background: linear-gradient(176deg,purple, white);
     overflow-x: hidden;
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
 }
 
 header{
