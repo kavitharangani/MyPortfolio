@@ -23,7 +23,7 @@ nav>center>h2{
     list-style-type: none;
     margin: 2px 20px;
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(-25px);
     animation: animation 3s linear forwards;
 }
 
