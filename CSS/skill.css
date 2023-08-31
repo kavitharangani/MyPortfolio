@@ -2,39 +2,19 @@ main{
     display: flex;
 }
 .skill{
-    font-size: 30px;
+    width: content-box;
+    font-size: 50px;
+    left: 20%;
+    position: relative;
+    font-weight: 7000;
 }
-
-/*.img1{*/
-/*    width: 100px;*/
-/*    top: 30px;*/
-/*    position: relative;*/
-/*    font-size: 20px;*/
-/*    margin-left: 200px;*/
-/*}*/
-
-/*.img2 {*/
-/*    width: 100px;*/
-/*    top: 30px;*/
-/*    left: 20%;*/
-/*    position: relative;*/
-/*    font-size: 20px;*/
-/*}*/
-
-/*.img3 {*/
-/*    width: 100px;*/
-/*    top: 30px;*/
-/*    left: 20%;*/
-/*    position: relative;*/
-/*    font-size: 20px;*/
-/*}*/
-
-/*.img4 {*/
-/*    width: 100px;*/
-/*    top: 30px;*/
-/*    left: 20%;*/
-/*    position: relative*/
-/*}*/
+.kavi{
+    width: 24%;
+    height: 20vw;
+    position: relative;
+    display: inline-block;
+    left: 2%;
+}
 
 .img{
     width: 120px;
@@ -78,8 +58,10 @@ main{
     display: flex;
 }
 .progress-title{
-    width: 100%;
+    width: 50%;
     height: auto;
+    left: 30%;
+    position: relative;
 }
 .progress-title h3{
     font-size: 18px;
@@ -87,10 +69,6 @@ main{
     color: black;
     margin: 0 0 20px;
 }
-
-/*a{*/
-/*    text-decoration: none !important;*/
-/*}*/
 .progress{
     height: 20px;
     background: white;
@@ -105,6 +83,8 @@ main{
     border-radius: 20px;
     border: 10px solid blue;
     animation: animate-positive 2s;
+
+
 }
 .progress .progress-value{
     width: 65px;
@@ -114,7 +94,7 @@ main{
     font-size: 15px;
     color: #fff;
     border-radius: 0 0 15px 15px;
-    border: 1px solid #000;
+    border: 1px solid white;
     border-top: none;
     box-shadow: 0 2px 2px #4f4c4c ;
     position: absolute;

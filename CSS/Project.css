@@ -11,7 +11,7 @@
 
 .box2>a>img{
     width: 200px;
-    top: 280px;
+    top: 310px;
     left: 80%;
     z-index: 2;
     transform: translateX(-50%);
@@ -21,7 +21,7 @@
 
 .box3>a>img{
     width: 200px;
-    top: 410px;
+    top: 470px;
     left: 80%;
     z-index: 2;
     transform: translateX(-50%);
@@ -31,7 +31,7 @@
 
 .box4>a>img{
     width: 100px;
-    top: 540px;
+    top: 600px;
     left: 80%;
     z-index: 2;
     transform: translateX(-50%);
@@ -43,7 +43,7 @@
 
 .box5>a>img{
     width: 100px;
-    top: 755px;
+    top: 860px;
     left: 80%;
     z-index: 2;
     transform: translateX(-50%);
@@ -53,6 +53,11 @@
 
 .project{
     font-size: 30px;
+    left: 20%;
+    position: relative;
+    font-size: 40px;
+    width: content-box;
+    font-weight: 10000;
 }
 
 .box>h3{
@@ -178,4 +183,38 @@
     position: relative;
     font-size: 20px;
 }
+.box{
+    background:  linear-gradient(170deg,gray, white);
+    width: 800px;
+    height: content-box;
+    border-radius: 20px 0 20px;
 
+}
+.box2{
+    background:  linear-gradient(170deg,gray, white);
+    width: 800px;
+    height: content-box;
+    border-radius: 20px 0 20px;
+
+}
+.box3{
+    background:  linear-gradient(170deg,gray, white);
+    width: 800px;
+    height: content-box;
+    border-radius: 20px 0 20px;
+
+}
+.box4{
+    background:  linear-gradient(170deg,gray, white);
+    width: 800px;
+    height: content-box;
+    border-radius: 20px 0 20px;
+
+}
+.box5{
+    background:  linear-gradient(170deg,gray, white);
+    width: 800px;
+    height: content-box;
+    border-radius: 20px 0 20px;
+
+}

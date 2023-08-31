@@ -1,6 +1,21 @@
 .main{
     width: content-box;
     position: relative;
-    left: 50%;
-    font-size: 30px;
+    left: 25%;
+    font-size: 20px;
+}
+.title4{
+    width: content-box;
+    position: relative;
+    top: 5vh;
+}
+
+.div {
+    width: 500px;
+    background: linear-gradient(176deg,plum, white);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    left: 20vh;
+    border-bottom: 10vw;
 }
