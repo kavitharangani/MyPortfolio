@@ -14,26 +14,6 @@
 
 
 
-    <style>
-        div{
-            width: 100%;
-            height: 100%;
-            display: grid;
-            grid-template-columns: repeat(10,10vw);
-            grid-template-rows: repeat(15,30vw);
-        }
-
-        div>img:nth-child(1){
-            grid-column: 1/3;
-
-        }
-        div>img:nth-child(2){
-            grid-column: 3;
-
-        }
-
-    </style>
-
 </head>
 <body>
 <header>
@@ -52,35 +32,156 @@
 </header>
 <h1>Gallery Form</h1>
 
-<main  class="body">
-<div class="box" >
-    <h1>My Memory Collection</h1>
-   <span style="--i:1"> <img src="assests/img/img_2.png" alt="" ></span>
-    <span style="--i:2"> <img src="assests/img/img_3.png" alt=""></span>
-    <span style="--i:3"> <img src="assests/img/img_4.png" alt=""></span>
-    <span style="--i:4"> <img src="assests/img/img_5.png" alt=""></span>
-    <span style="--i:5"> <img src="assests/img/img_6.png" alt=""></span>
-    <span style="--i:6"> <img src="assests/img/img_18.png" alt=""></span>
-    <span style="--i:7"> <img src="assests/img/img_19.png" alt=""></span>
-    <span style="--i:8"> <img src="assests/img/img_20.png" alt=""></span>
-    <span style="--i:19"><img src="assests/img/img_17.png" alt=""></span>
-
-    <div class="animation">
-        <span style="--i:0"><img src="assests/img/img_7.png" alt=""></span>
-        <span style="--i:1"><img src="assests/img/img_8.png" alt=""></span>
-        <span style="--i:2"><img src="assests/img/img_9.png" alt=""></span>
-        <span style="--i:3"><img src="assests/img/img_10.png" alt=""></span>
-        <span style="--i:4"><img src="assests/img/img_11.png" alt=""></span>
-        <span style="--i:5"><img src="assests/img/img_12.png" alt=""></span>
-        <span style="--i:6"><img src="assests/img/img_13.png" alt=""></span>
-        <span style="--i:7"><img src="assests/img/img_14.png" alt=""></span>
-        <span style="--i:8"><img src="assests/img/img_15.png" alt=""></span>
-        <span style="--i:9"><img src="assests/img/img_16.png" alt=""></span>
-
+<section class="area">
+    <div class="container">
+        <div class="icon">
+            <div class="imgBx active" style="--i:1;" data-id="content1">
+                <img src="assests/img/img_2.png" width="300" >
+            </div>
+            <div class="imgBx" style="--i:2;" data-id="content2">
+                <img src="assests/img/img_3.png"  width="300">
+            </div>
+            <div class="imgBx" style="--i:3;" data-id="content3">
+                <img src="assests/img/img_4.png" width="300">
+            </div>
+            <div class="imgBx" style="--i:4;" data-id="content4">
+                <img src="assests/img/img_5.png"  width="300">
+            </div>
+            <div class="imgBx" style="--i:5;" data-id="content5">
+                <img src="assests/img/img_15.png"  width="300">
+            </div>
+            <div class="imgBx" style="--i:6;" data-id="content6">
+                <img src="assests/img/img_7.png"  width="300">
+            </div>
+            <div class="imgBx" style="--i:7;" data-id="content7">
+                <img src="assests/img/img_17.png"width="300">
+            </div>
+            <div class="imgBx" style="--i:8;" data-id="content8">
+                <img src="assests/img/img_10.png" width="300">
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content1">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content2">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content3">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_4.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content4">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_5.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content5">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_15.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content6">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_7.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content7">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_17.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBx active" id="content8">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="assests/img/img_10.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script>
+        let imgBx = document.querySelectorAll('.imgBx');
+        let contentBx = document.querySelectorAll('.contentBx');
 
-</div>
-</main>
+        for (let i=0; i<imgBx.length; i++){
+            imgBx[i].addEventListener('mouseover',function (){
+                for (let i=0; i<contentBx.length; i++){
+                    contentBx[i].className='contentBx';
+                }
+                document.getElementById(this.dataset.id).
+                    className='contentBx active';
+
+                for (let i=0; i<imgBx.length; i++){
+                    imgBx[i].className = 'imgBx';
+                }
+                this.className='imgBx active';
+            })
+        }
+    </script>
+</section>
+<!--<main  class="body">-->
+<!--<div class="box" >-->
+<!--    <h1>My Memory Collection</h1>-->
+<!--   <span style="&#45;&#45;i:1"> <img src="assests/img/img_2.png" alt="" ></span>-->
+<!--    <span style="&#45;&#45;i:2"> <img src="assests/img/img_3.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:3"> <img src="assests/img/img_4.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:4"> <img src="assests/img/img_5.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:5"> <img src="assests/img/img_6.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:6"> <img src="assests/img/img_18.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:7"> <img src="assests/img/img_19.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:8"> <img src="assests/img/img_20.png" alt=""></span>-->
+<!--    <span style="&#45;&#45;i:19"><img src="assests/img/img_17.png" alt=""></span>-->
+
+<!--    <div class="animation">-->
+<!--        <span style="&#45;&#45;i:0"><img src="assests/img/img_7.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:1"><img src="assests/img/img_8.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:2"><img src="assests/img/img_9.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:3"><img src="assests/img/img_10.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:4"><img src="assests/img/img_11.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:5"><img src="assests/img/img_12.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:6"><img src="assests/img/img_13.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:7"><img src="assests/img/img_14.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:8"><img src="assests/img/img_15.png" alt=""></span>-->
+<!--        <span style="&#45;&#45;i:9"><img src="assests/img/img_16.png" alt=""></span>-->
+
+<!--    </div>-->
+
+<!--</div>-->
+<!--</main>-->
 
 <!--<div class="animation">-->
 <!--    <span style="&#45;&#45;i:0"><img src="assests/img/img_7.png" alt=""></span>-->
