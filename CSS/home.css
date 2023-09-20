@@ -13,6 +13,26 @@ header>img:nth-child(1){
     top: 18vh;
     border-radius: 100%;
 }
+@media all and (max-width: 900px) {
+    header>img:nth-child(1){
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        height: 45px;
+    }
+}
+@media all and (max-width: 900px) {
+    .t1>span{
+        /*top: 20px;*/
+        font-size: 25px;
+    }
+}
+@media all and (max-width: 900px) {
+    #text-box>t2{
+        font-size: 150px;
+    }
+}
+
 header>nav{
     position: absolute;
     right: 0;
@@ -37,6 +57,13 @@ header>h3{
 }
 .mainphoto{
     width: 100%;
+}
+@media all and (max-width: 900px) {
+    .hikg{
+        top: 20px;
+       width: 900px;
+        height: 900px;
+    }
 }
 .hikg{
     opacity: 0;
@@ -95,6 +122,17 @@ header>h3{
     background-color: palevioletred;
     border-radius: 10px 10px 10px 10px;
 }
+@media all and (max-width: 900px) {
+    .hire{
+        width: content-box;
+        height: content-box;
+        position: absolute;
+        left: 70%;
+        top: 50vh;
+        font-size: 20px;
+    }
+}
+
 .nav{
     width: content-box;
     position: absolute;
@@ -103,12 +141,38 @@ header>h3{
     color: blue;
     margin: 10px;
 }
+@media all and (max-width: 900px) {
+    .nav{
+        width: content-box;
+        position: absolute;
+        left: 40%;
+        top: 55vh;
+        color: blue;
+        margin: 10px;
+    }
+}
+@media all and (max-width: 900px) {
+    .aboutImg{
+        width: 400px;
+        top: 100vh;
+    }
+}
+
 .kavi{
     width: content-box;
     top: 150vh;
     position: absolute;
     left: 40%;
     font-size: 35px;
+}
+@media all and (max-width: 900px) {
+    .kavi{
+        width: content-box;
+        top: 90vh;
+        position: absolute;
+        left: 50%;
+        font-size: 30px;
+    }
 }
 .description{
     width: content-box;
@@ -117,6 +181,15 @@ header>h3{
     left: 40%;
     font-size: 25px;
 }
+@media all and (max-width: 900px) {
+    .description{
+        width: content-box;
+        top: 110vh;
+        position: absolute;
+        left: 50%;
+        font-size: 20px;
+    }
+}
 .download{
     width: content-box;
     top: 190vh;
@@ -124,10 +197,39 @@ header>h3{
     left: 75%;
     font-size: 25px;
 }
+@media all and (max-width: 900px) {
+    .download{
+        width: content-box;
+        top: 130vh;
+        position: absolute;
+        left: 60%;
+        font-size: 20px;
+    }
+}
 .download>button{
     background-color:orange;
     border-radius: 10px 10px 10px 10px;
 }
+@media all and (max-width: 900px) {
+    .download>button{
+        background-color:orange;
+        border-radius: 5px 5px 5px 5px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .tools{
+       font-size: 20px;
+    }
+}
+@media all and (max-width: 900px) {
+    #tool{
+        width: 10px;
+        margin-left: 2px;
+    }
+}
+
+
 section{
     width: content-box;
     position: relative;
@@ -204,6 +306,15 @@ span{
     letter-spacing: 0.2em;
 
 }
+@media all and (max-width: 900px) {
+    .t1{
+        color: black;
+        font-size: 3em;
+        font-family: sans-serif;
+        letter-spacing: 0.2em;
+    }
+}
+
 .t1 span{
     opacity: 0;
     display: inline-block;

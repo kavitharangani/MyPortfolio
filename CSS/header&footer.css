@@ -7,6 +7,7 @@ body{
     position: relative;
 }
 
+
 header{
     width: 100vw;
     height: 50px;
@@ -14,7 +15,15 @@ header{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: relative;
 }
-
+@media all and (max-width: 900px) {
+    nav>center>h2{
+        width: 100vw;
+        height: 30px;
+        background-color: plum;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+    }
+}
 nav>center{
     position: absolute;
     right: 0;
@@ -85,6 +94,7 @@ footer>div{
     color: orange;
     font-size: 20px;
 }
+
 .letter{
     color: white;
 }
