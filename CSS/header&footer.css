@@ -3,7 +3,7 @@ body{
     background: linear-gradient(176deg,purple, white);
     overflow-x: hidden;
     width: 100%;
-    aspect-ratio: 1/1;
+    height: content-box;
     position: relative;
 }
 

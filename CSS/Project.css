@@ -190,6 +190,62 @@
     border-radius: 20px 0 20px;
 
 }
+/*@media all and (max-width: 1440px){*/
+/*    .box{*/
+/*        background:  linear-gradient(170deg,gray, white);*/
+/*        width: 800px;*/
+/*        height: content-box;*/
+/*        border-radius: 20px 0 20px;*/
+
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 768px) and (max-width: 1024px){*/
+/*    .box{*/
+/*        background:  linear-gradient(170deg,gray, white);*/
+/*        width: 700px;*/
+/*        height: content-box;*/
+/*        border-radius: 20px 0 20px;*/
+
+/*    }*/
+/*}*/
+/*@media all and (min-width: 425px) and (max-width: 768px){*/
+/*    .box{*/
+/*        background:  linear-gradient(170deg,gray, white);*/
+/*        width: 600px;*/
+/*        height: content-box;*/
+/*        border-radius: 20px 0 20px;*/
+
+/*    }*/
+/*}*/
+/*@media all and (min-width: 375px) and (max-width: 425px){*/
+/*    .box{*/
+/*        background:  linear-gradient(170deg,gray, white);*/
+/*        width: 500px;*/
+/*        height: content-box;*/
+/*        border-radius: 20px 0 20px;*/
+
+/*    }*/
+/*}*/
+/*@media all and (min-width: 320px) and (max-width: 375px){*/
+/*    .box{*/
+/*        background:  linear-gradient(170deg,gray, white);*/
+/*        width: 400px;*/
+/*        height: content-box;*/
+/*        border-radius: 20px 0 20px;*/
+
+/*    }*/
+/*}*/
+/*@media all and (max-width: 320px){*/
+/*    .box{*/
+/*        background:  linear-gradient(170deg,gray, white);*/
+/*        width: 10px;*/
+/*        height: content-box;*/
+/*        border-radius: 20px 0 20px;*/
+
+/*    }*/
+/*}*/
+
 .box2{
     background:  linear-gradient(170deg,gray, white);
     width: 800px;
@@ -217,4 +273,50 @@
     height: content-box;
     border-radius: 20px 0 20px;
 
+}
+
+@media screen and (min-width: 1441px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 16px;
+    }
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .box,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        width: 100%;
+    }
 }
