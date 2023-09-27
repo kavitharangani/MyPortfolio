@@ -87,9 +87,7 @@ header>h3{
     color: transparent;
     -webkit-text-stroke: 1px black;
     background: url("https://e7.pngegg.com/pngimages/604/552/png-clipart-white-red-and-gray-slash-illustration-brand-pattern-line-border-border-frame-thumbnail.png");
-    /*background: url("https://e7.pngegg.com/pngimages/460/198/png-clipart-red-and-black-line-art-line-euclidean-computer-file-line-angle-abstract-lines-thumbnail.png");*/
-    /*background: url("https://e7.pngegg.com/pngimages/541/54/png-clipart-green-slash-cool-lines-geometry-color-cool-lines-miscellaneous-blue-thumbnail.png");*/
-    -webkit-background-clip: text;
+     -webkit-background-clip: text;
     background-position: 0 0;
     animation:back 20s linear infinite;
 
@@ -210,25 +208,6 @@ header>h3{
     background-color:orange;
     border-radius: 10px 10px 10px 10px;
 }
-@media all and (max-width: 900px) {
-    .download>button{
-        background-color:orange;
-        border-radius: 5px 5px 5px 5px;
-    }
-}
-
-@media all and (max-width: 900px) {
-    .tools{
-       font-size: 20px;
-    }
-}
-@media all and (max-width: 900px) {
-    #tool{
-        width: 10px;
-        margin-left: 2px;
-    }
-}
-
 
 section{
     width: content-box;
@@ -354,5 +333,441 @@ vedio{
 .t1 span:nth-child(5){
     animation-delay: 3.5s;
 }
+@media all  and (max-width: 1024px){
+    .t1{
+        position: absolute;
+        top: 34vh;
+        left: 65%;
+        font-size: 3em;
+        letter-spacing: 0.1em;
+
+    }
+    .t2{
+        width: content-box;
+        position: absolute;
+        left: 60%;
+        top: 35vh;
+        font-size: 30px;
+
+    }
+    .t3{
+        width: content-box;
+        position: absolute;
+        left: 60%;
+        top: 40vh;
+        font-size: 20px;
+    }
+    .hire{
+        width: content-box;
+        height: content-box;
+        position: absolute;
+        left: 75%;
+        top: 55vh;
+        font-size: 25px;
+    }
+    .nav{
+        width: content-box;
+        position: absolute;
+        left: 60%;
+        top: 65vh;
+        color: blue;
+        margin: 10px;
+    }
+    .aboutImg{
+        width: 350px;
+        top: 100vh;
+    }
+    .kavi{
+        width: content-box;
+        top: 90vh;
+        position: absolute;
+        left: 50%;
+        font-size: 28px;
+    }
+    .description{
+        width: content-box;
+        top: 100vh;
+        position: absolute;
+        left: 40%;
+        font-size: 23px;
+    }
+    .download{
+        width: content-box;
+        top: 140vh;
+        position: absolute;
+        left: 80%;
+        font-size: 20px;
+    }
+    .tool>a{
+        width: 50px;
+    }
+}
+
+@media all  and (max-width: 768px){
+    header{
+        width: 100vw;
+        height: 50px;
+        background-color: plum;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+    }
+
+    nav>center{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav>center>h2{
+        color: black;
+        list-style-type: none;
+        margin: 2px 10px;
+        opacity: 0;
+        transform: translateY(-25px);
+        animation: animation 3s linear forwards;
+    }
+
+    nav>center>h2>a{
+        display: inline;
+        margin: 2px 10px;
+    }
+
+    /*    footer    */
+    .footer{
+        width: 20px;
+        position: absolute;
+        font-size: 25px;
+    }
+
+    .navigate{
+        width: 500px;
+        left: 90%;
+        position: absolute;
+        margin: 10px;
+    }
+    .from{
+        width: 500px;
+        top: 1px;
+        left: 55%;
+        position: absolute;
+    }
+
+    .main{
+        width: 500px;
+        left: 10%;
+        position: relative;
+        margin: 5px;
+    }
+
+    .Contact{
+        color: orange;
+        font-size: 20px;
+    }
+
+    .letter{
+        color: white;
+    }
+
+
+    .t1{
+        position: absolute;
+        top: 25vh;
+        left: 65%;
+        font-size: 2em;
+        letter-spacing: 0.1em;
+
+    }
+    .t2{
+        width: content-box;
+        position: absolute;
+        left: 60%;
+        top: 28vh;
+        font-size: 25px;
+
+    }
+    .t3{
+        width: content-box;
+        position: absolute;
+        left: 60%;
+        top: 33vh;
+        font-size: 15px;
+    }
+    .hire{
+        width: content-box;
+        height: content-box;
+        position: absolute;
+        left: 75%;
+        top: 45vh;
+        font-size: 20px;
+    }
+    .nav{
+        width: content-box;
+        position: absolute;
+        left: 60%;
+        top: 50vh;
+        color: blue;
+        margin: 10px;
+    }
+    .aboutImg{
+        position: absolute;
+        width: 350px;
+        top: 70vh;
+    }
+    .kavi{
+        width: content-box;
+        top: 78vh;
+        position: absolute;
+        left: 55%;
+        font-size: 20px;
+    }
+    .description{
+        width: content-box;
+        top: 85vh;
+        position: absolute;
+        left: 50%;
+        font-size: 15px;
+    }
+    .download{
+        width: content-box;
+        top: 110vh;
+        position: absolute;
+        left: 70%;
+        font-size: 17px;
+    }
+    .tool>a{
+        position: relative;
+        top: 500px;
+        width: 50px;
+    }
+    .tool{
+        width: 100px;
+        position: relative;
+        top: 400px;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: content-box;
+    }
+}
+@media all  and (max-width: 425px){
+    header{
+        width: 100vw;
+        height: 50px;
+        background-color: plum;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+    }
+
+    nav>center{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav>center>h2{
+        color: black;
+        list-style-type: none;
+        margin: 2px 10px;
+        opacity: 0;
+        font-size: 13px;
+        transform: translateY(-25px);
+        animation: animation 3s linear forwards;
+    }
+
+    nav>center>h2>a{
+        display: inline;
+        margin: 2px 5px;
+    }
+
+    /*    footer    */
+    .footer{
+        width: 500px;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .navigate{
+        width: 500px;
+        left: 75%;
+        position: absolute;
+        margin-top: 130px;
+    }
+    .from{
+        width: 50px;
+        top: 1px;
+        left: 55%;
+        position: absolute;
+    }
+
+    .main{
+        width: 500px;
+        left: 2%;
+        position: relative;
+        margin: 5px;
+    }
+
+    .Contact{
+        width: 500px;
+        position: relative;
+        margin-top: 30px;
+        color: orange;
+        font-size: 15px;
+    }
+
+    .letter{
+        width: 50px;
+        position: relative;
+        color: white;
+    }
+
+}
+
+
+@media all and (max-width: 375px){
+    header{
+        width: 100vw;
+        height: 50px;
+        background-color: plum;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+    }
+
+    nav>center{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav>center>h2{
+        color: black;
+        list-style-type: none;
+        margin: 2px 10px;
+        opacity: 0;
+        font-size: 10px;
+        transform: translateY(-25px);
+        animation: animation 3s linear forwards;
+    }
+
+    nav>center>h2>a{
+        display: inline;
+        margin: 2px 5px;
+    }
+    .footer{
+        width: 500px;
+        position: absolute;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .navigate{
+        width: 500px;
+        left: 65%;
+        position: absolute;
+        margin-top: 130px;
+    }
+    .from{
+        width: 50px;
+        top: 1px;
+        left: 55%;
+        position: absolute;
+    }
+
+    .main{
+        width: 500px;
+        left: 1%;
+        position: relative;
+        margin: 5px;
+    }
+
+    .Contact{
+        width: 250px;
+        position: relative;
+        margin-top: 30px;
+        color: orange;
+        font-size: 15px;
+    }
+
+    .letter{
+        width: 50px;
+        position: relative;
+        color: white;
+    }
+}
+@media all and (max-width: 320px) {
+    header {
+        width: 100vw;
+        height: 50px;
+        background-color: plum;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        position: relative;
+    }
+
+    nav > center {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    nav > center > h2 {
+        color: black;
+        list-style-type: none;
+        margin: 2px 10px;
+        opacity: 0;
+        font-size: 8px;
+        transform: translateY(-25px);
+        animation: animation 3s linear forwards;
+    }
+
+    nav > center > h2 > a {
+        display: inline;
+        margin: 2px 5px;
+    }
+
+    .footer {
+        width: 500px;
+        position: absolute;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .navigate {
+        width: 500px;
+        left: 65%;
+        position: absolute;
+        margin-top: 130px;
+    }
+
+    .from {
+        width: 500px;
+        top: 5px;
+        left: 200%;
+        position: absolute;
+    }
+
+    .main {
+        width: 500px;
+        left: 1%;
+        position: relative;
+        margin: 5px;
+    }
+
+    .Contact {
+        width: 500px;
+        position: relative;
+        margin-top: 30px;
+        color: orange;
+        font-size: 10px;
+    }
+
+    .letter {
+        width: 50px;
+        position: relative;
+        color: white;
+    }
+}
+
 
 
