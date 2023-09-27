@@ -12,7 +12,6 @@
     left: 20vh;
     display: inline-flex;
     border-bottom: 10vw;
-
 }
 body>img{
     width: 300px;
@@ -149,3 +148,27 @@ div>p{
         animation: animate 20s linear infinite;
     }
 }
+/*          box         */
+
+@media all and (max-width: 1440px) and (min-width: 1025px){
+    .div:first-child{
+        width:40vw;
+        height: 10vw;
+        background-color: slategray;
+        position: absolute;
+        border-radius: 10px 10px 10px 10px;
+        left: 20vh;
+        border-bottom: 10vw;
+    }
+    .div:last-child{
+        width:40vw;
+        height: 10vw;
+        top: 50vh;
+        background-color: slategray;
+        position: absolute;
+        border-radius: 10px 10px 10px 10px;
+        left: 20vh;
+        border-bottom: 10vw;
+    }
+}
+
