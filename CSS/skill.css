@@ -310,4 +310,11 @@ div>center>p{
     div>p{
         width:300px;
     }
+    main>h1{
+        width: content-box;
+        font-size: 40px;
+        left: 20%;
+        position: relative;
+        font-weight: 7000;
+    }
 }
