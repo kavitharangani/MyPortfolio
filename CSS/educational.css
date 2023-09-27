@@ -78,3 +78,74 @@ div>p{
     height: 100%;
     object-fit: cover;
 }
+
+@media all and (max-width: 1440px) and (min-width: 1025px){
+    .box{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        transform-style: preserve-3d;
+        animation: animate 20s linear infinite;
+    }
+    body>img{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 70vh;
+        top: 7vh;
+
+    }
+}
+@media all and (max-width: 1024px) and (min-width: 769px){
+    .box{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        transform-style: preserve-3d;
+        animation: animate 20s linear infinite;
+    }
+    body>img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 300vh;
+        top: 7vh;
+
+    }
+}
+@media all and (max-width: 768px) and (min-width: 426px) {
+    .box{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        transform-style: preserve-3d;
+        animation: animate 20s linear infinite;
+    }
+}
+@media all and (max-width: 425px) and (min-width: 376px){
+    .box{
+        position: relative;
+        width: 50px;
+        height: 300px;
+        transform-style: preserve-3d;
+        animation: animate 20s linear infinite;
+    }
+}
+@media all and (max-width: 375px) and (min-width: 321px){
+    .box{
+        position: relative;
+        width: 500px;
+        height: 300px;
+        transform-style: preserve-3d;
+        animation: animate 20s linear infinite;
+    }
+}
+@media all and (max-width: 320px) and (min-width: 0px){
+    .box{
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        transform-style: preserve-3d;
+        animation: animate 20s linear infinite;
+    }
+}
