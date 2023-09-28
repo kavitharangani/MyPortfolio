@@ -92,8 +92,8 @@ div>p{
         position: relative;
         left: 70vh;
         top: 7vh;
-
     }
+
 }
 @media all and (max-width: 1024px) and (min-width: 769px){
     .box{
@@ -111,6 +111,43 @@ div>p{
         top: 7vh;
 
     }
+    h1 {
+        font-size: 2em;
+        left: 119px;
+        margin: 0.67em 0;
+        position: absolute;
+    }
+    .div {
+        width: 42vw;
+        height: 15vw;
+        background-color: slategray;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        left: 3vh;
+        top: 56px;
+        display: inherit;
+        margin: 40px;
+        border-bottom: 10vw;
+    }
+    body>img {
+        width: 295px;
+        height: 200px;
+        position: relative;
+        left: 89vh;
+        top: -20vh;
+    }
+    .from {
+        width: 500px;
+        top: 1px;
+        left: 52%;
+        position: absolute;
+    }
+    .navigate {
+        width: 500px;
+        left: 77%;
+        position: absolute;
+        margin: 51px;
+    }
 }
 @media all and (max-width: 768px) and (min-width: 426px) {
     .box{
@@ -120,6 +157,40 @@ div>p{
         transform-style: preserve-3d;
         animation: animate 20s linear infinite;
     }
+    h1 {
+        font-size: 2em;
+        left: 119px;
+        margin: 0.67em 0;
+        position: absolute;
+    }
+    .div {
+        width: 56vw;
+        height: 19vw;
+        background-color: slategray;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        left: 2vh;
+        display: inline-flex;
+        border-bottom: 10vw;
+        top: 51px;
+    }
+    body>img {
+        width: 258px;
+        height: 208px;
+        position: relative;
+        left: 7vh;
+        top: 13vh;
+    }
+    .box span img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 226%;
+        height: 258%;
+        object-fit: cover;
+    }
+
+
 }
 @media all and (max-width: 425px) and (min-width: 376px){
     .box{
@@ -128,6 +199,40 @@ div>p{
         height: 300px;
         transform-style: preserve-3d;
         animation: animate 20s linear infinite;
+    }
+    h1 {
+        font-size: 2em;
+        left: 119px;
+        margin: 0.67em 0;
+        position: absolute;
+    }
+    .div {
+        width: 56vw;
+        height: 47vw;
+        background-color: slategray;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        left: 14vh;
+        display: inline-flex;
+        border-bottom: 10vw;
+        top: 78px;
+    }
+    body>img {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 8vh;
+        top: 7vh;
+    }
+    .box span {
+        position: absolute;
+        top: -6px;
+        left: 0;
+        width: 411%;
+        height: 100%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 45deg))translateZ(400px);
     }
 }
 @media all and (max-width: 375px) and (min-width: 321px){
@@ -138,14 +243,83 @@ div>p{
         transform-style: preserve-3d;
         animation: animate 20s linear infinite;
     }
+    h1 {
+        font-size: 2em;
+        left: 119px;
+        margin: 0.67em 0;
+        position: absolute;
+    }
+    .div {
+        width: 75vw;
+        height: 51vw;
+        background-color: slategray;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        left: 6vh;
+        display: inline-flex;
+        border-bottom: 10vw;
+        top: 128px;
+    }
+    body>img {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 7vh;
+        top: 13vh;
+    }
+    .box span {
+        position: absolute;
+        top: 58px;
+        left: 0;
+        width: 66%;
+        height: 95%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 46deg
+        ))translateZ(400px);
+    }
 }
-@media all and (max-width: 320px) and (min-width: 0px){
+@media all and (max-width: 320px) {
     .box{
         position: absolute;
         width: 300px;
         height: 500px;
         transform-style: preserve-3d;
         animation: animate 20s linear infinite;
+    }
+    h1 {
+        font-size: 2em;
+        left: 119px;
+        margin: 0.67em 0;
+        position: absolute;
+    }
+    .div {
+        width: 75vw;
+        height: 51vw;
+        background-color: slategray;
+        position: relative;
+        border-radius: 10px 10px 10px 10px;
+        left: 6vh;
+        display: inline-flex;
+        border-bottom: 10vw;
+        top: 128px;
+    }
+    body>img {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        left: 0vh;
+        top: 17vh;
+    }
+    .box span {
+        position: absolute;
+        top: 125px;
+        left: 0;
+        width: 102%;
+        height: 50%;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        transform: rotateY(calc(var(--i) * 46deg ))translateZ(400px);
     }
 }
 /*          box         */

@@ -662,20 +662,22 @@
         left: 50%;
     }
 }
-@media all and (max-width: 320px){
-    .box>a>img{
+@media all and (max-width: 320px) {
+    .box > a > img {
         width: 200px;
         top: 0;
         left: 50%;
     }
-    .cart{
+
+    .cart {
         position: relative;
         top: 130px;
         width: 270px;
         left: 20px;
-        background:  linear-gradient(170deg,gray, white);
+        background: linear-gradient(170deg, gray, white);
     }
-    .box{
+
+    .box {
         position: relative;
         top: 0px;
         background: none;
@@ -683,20 +685,23 @@
         height: content-box;
         border-radius: 20px 0 20px;
     }
-    .box2>a>img{
+
+    .box2 > a > img {
         width: 200px;
         top: 100px;
         left: 50%;
     }
-    .cart2{
+
+    .cart2 {
         position: relative;
         top: 230px;
         left: 20px;
         width: 270px;
         height: 120px;
-        background:  linear-gradient(170deg,gray, white);
+        background: linear-gradient(170deg, gray, white);
     }
-    .box2{
+
+    .box2 {
         position: relative;
         top: 0px;
         background: none;
@@ -704,20 +709,23 @@
         height: content-box;
         border-radius: 20px 0 20px;
     }
-    .box2>a>img{
+
+    .box2 > a > img {
         width: 200px;
         top: 100px;
         left: 50%;
     }
-    .cart3{
+
+    .cart3 {
         position: relative;
         top: 350px;
         left: 20px;
         width: 270px;
         height: 147px;
-        background:  linear-gradient(170deg,gray, white);
+        background: linear-gradient(170deg, gray, white);
     }
-    .box3{
+
+    .box3 {
         position: relative;
         top: 0px;
         background: none;
@@ -725,20 +733,23 @@
         height: content-box;
         border-radius: 20px 0 20px;
     }
-    .box3>a>img{
+
+    .box3 > a > img {
         width: 200px;
         top: 230px;
         left: 50%;
     }
-    .cart4{
+
+    .cart4 {
         position: relative;
         top: 570px;
         left: 20px;
         width: 270px;
         height: 120px;
-        background:  linear-gradient(170deg,gray, white);
+        background: linear-gradient(170deg, gray, white);
     }
-    .box4{
+
+    .box4 {
         position: relative;
         top: 0px;
         background: none;
@@ -746,20 +757,23 @@
         height: content-box;
         border-radius: 20px 0 20px;
     }
-    .box4>a>img{
+
+    .box4 > a > img {
         width: 100px;
         top: 350px;
         left: 50%;
     }
-    .cart5{
+
+    .cart5 {
         position: relative;
         top: 750px;
         left: 20px;
         width: 270px;
         height: 120px;
-        background:  linear-gradient(170deg,gray, white);
+        background: linear-gradient(170deg, gray, white);
     }
-    .box5{
+
+    .box5 {
         position: relative;
         top: 0px;
         background: none;
@@ -767,10 +781,20 @@
         height: content-box;
         border-radius: 20px 0 20px;
     }
-    .box5>a>img{
+
+    .box5 > a > img {
         width: 100px;
         top: 600px;
         left: 50%;
+    }
+
+    .project {
+        font-size: 30px;
+        left: 10%;
+        position: relative;
+        font-size: 40px;
+        width: content-box;
+        font-weight: 10000;
     }
 
 }

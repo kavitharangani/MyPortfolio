@@ -10,7 +10,6 @@
     height: content-box;
     position: relative;
     margin: 2px 20px;
-    background-color: greenyellow;
 }
 div>center>img{
     width: content-box;
@@ -316,5 +315,12 @@ div>center>p{
         left: 20%;
         position: relative;
         font-weight: 7000;
+    }
+    main>.skill {
+        width: content-box;
+        left: 32%;
+        font-size: 50px;
+        position: relative;
+        font-weight: 2875;
     }
 }

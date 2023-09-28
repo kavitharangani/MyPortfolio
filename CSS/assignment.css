@@ -1,3 +1,297 @@
-.assignment{
-    font-size: 30px;
+::selection{
+    background-color: #018A8A;
+}
+#assignment-section{
+    background-color: #edfbfc;
+    position: relative;
+    top: 60vh;
+    height: 100vh;
+    width: 72vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+#assignment-section>h1{
+    width: 24vw;
+    font-family: 'Catamaran';
+    font-size: 4vw;
+    font-weight: 900;
+    color: #0A0A0A;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#assignment-section>div{
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 2px 7px;
+    border-radius: 2vh;
+    position: absolute;
+    margin: auto;
+}
+#assignment-section>div>h4{
+    width: 7vw;
+    font-family: 'Catamaran';
+    font-size: 1vw;
+    font-weight: 300;
+    color: #0A0A0A;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#box1{
+    top: 30vh;
+    left: 19vw;
+}
+#box2{
+    top: 30vh;
+    left: 30vw;
+}
+#box3{
+    top: 30vh;
+    left: 41vw;
+}
+#box4{
+    top: 30vh;
+    left: 52vw;
+}
+#box5{
+    top: 30vh;
+    left: 63vw;
+}
+#box6{
+    top: 30vh;
+    left: 74vw;
+}
+#box7{
+    top: 60vh;
+    left: 19vw;
+}
+#box8{
+    top: 60vh;
+    left: 30vw;
+}
+#box9{
+    top: 60vh;
+    left: 41vw;
+}
+#box10{
+    top: 60vh;
+    left: 52vw;
+}
+#box11{
+    top: 60vh;
+    left: 63vw;
+}
+#box12{
+    top: 60vh;
+    left: 74vw;
+}
+#assignment-section>div>h6{
+    width: 1.7vw;
+    font-faily: Inter, SansSerif;
+    font-size: 0.8vw;
+    font-weight: 600;
+    position: absolute;
+    bottom: 5vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #05BFDB;
+    border-radius: 8px;
+    padding: 1vh;
+    box-shadow: #05BFDB 0px 4px 12px;
+}
+#assignment-section>div>h6>a {
+    color: white;
+    text-decoration: none;
+}
+@media all and (max-width: 1440px){
+
+}
+@media all and (max-width: 1024px){
+    #assignment-section{
+        top: 85vh;
+        height: 70vh;
+    }
+    #box1{
+        top: 20vh;
+    }
+    #box2{
+        top: 20vh;
+    }
+    #box3{
+        top: 20vh;
+    }
+    #box4{
+        top: 20vh;
+    }
+    #box5{
+        top: 20vh;
+    }
+    #box6{
+        top: 20vh;
+    }
+    #box7{
+        top: 45vh;
+    }
+    #box8{
+        top: 45vh;
+    }
+    #box9{
+        top: 45vh;
+    }
+    #box10{
+        top: 45vh;
+    }
+    #box11{
+        top: 45vh;
+    }
+    #box12{
+        top: 45vh;
+    }
+}
+@media all and (max-width: 768px) {
+    #assignment-section {
+        top: 65vh;
+        height: 70vh;
+    }
+    #assignment-section>div{
+        width: 13vw;
+    }
+    #box1{
+        left: 5vw;
+    }
+    #box2{
+        left: 20vw;
+    }
+    #box3{
+        left: 35vw;
+    }
+    #box4{
+        left: 50vw;
+    }
+    #box5{
+        left: 65vw;
+    }
+    #box6{
+        left: 80vw;
+    }
+    #box7{
+        left: 5vw;
+    }
+    #box8{
+        left: 20vw;
+    }
+    #box9{
+        left: 35vw;
+    }
+    #box10{
+        left: 50vw;
+    }
+    #box11{
+        left: 65vw;
+    }
+    #box12{
+        left: 80vw;
+    }
+    #assignment-section>div>h4{
+        width: 10vw;
+        font-size: 1.5vw;
+    }
+    #assignment-section>div>h6{
+        width: 2vw;
+        font-size: 1vw;
+        border-radius: 5px;
+    }
+}
+@media all and (max-width: 425px) {
+    #assignment-section {
+        top: 130vh;
+        height: 95vh;
+    }
+    #assignment-section>h1 {
+        width: 27vw;
+        font-size: 7vw;
+    }
+    #assignment-section>div{
+        width: 20vw;
+    }
+    #assignment-section>div>h4{
+        width: 16vw;
+        font-size: 2.5vw;
+    }
+    #box1{
+        top: 20vh;
+        left: 5vw;
+    }
+    #box2{
+        top: 20vh;
+        left: 29vw;
+    }
+    #box3{
+        top: 20vh;
+        left: 53vw;
+    }
+    #box4{
+        top: 20vh;
+        left: 77vw;
+    }
+    #box5{
+        top: 45vh;
+        left: 5vw;
+    }
+    #box6{
+        top: 45vh;
+        left: 29vw;
+    }
+    #box7{
+        top: 45vh;
+        left: 53vw;
+    }
+    #box8{
+        top: 45vh;
+        left: 77vw;
+    }
+    #box9{
+        top: 70vh;
+        left: 5vw;
+    }
+    #box10{
+        top: 70vh;
+        left: 29vw;
+    }
+    #box11{
+        top: 70vh;
+        left: 53vw;
+    }
+    #box12{
+        top: 70vh;
+        left: 77vw;
+    }
+    #assignment-section>div>h6{
+        width: 5vw;
+        font-size: 2vw;
+    }
+}
+@media all and (max-width: 375px) {
+    #assignment-section {
+        top: 125vh;
+    }
+    #assignment-section>h1 {
+        font-size: 8vw;
+    }
+    #assignment-section>div>h4{
+        width: 19vw;
+        font-size: 3vw;
+    }
+}
+@media all and (max-width: 320px) {
+    #assignment-section {
+        top: 115vh;
+    }
 }
