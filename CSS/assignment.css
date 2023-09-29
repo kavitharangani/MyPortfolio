@@ -2,9 +2,9 @@
     background-color: #018A8A;
 }
 #assignment-section{
-    background-color: #edfbfc;
+    /*background-color: #edfbfc;*/
     position: relative;
-    top: 60vh;
+    top: 5vh;
     height: 100vh;
     width: 72vw;
     padding-left: 14vw;
@@ -101,10 +101,10 @@
     right: 0;
     left: 0;
     margin: auto;
-    background-color: #05BFDB;
+    background-color: hotpink;
     border-radius: 8px;
     padding: 1vh;
-    box-shadow: #05BFDB 0px 4px 12px;
+    box-shadow: deeppink 0px 4px 12px;
 }
 #assignment-section>div>h6>a {
     color: white;
