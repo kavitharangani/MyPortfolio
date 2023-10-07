@@ -251,6 +251,7 @@ vedio{
 .t1 span:nth-child(5){
     animation-delay: 3.5s;
 }
+
 @media all  and (max-width: 1024px){
     .t1{
         position: absolute;
@@ -283,11 +284,11 @@ vedio{
         top: 55vh;
         font-size: 25px;
     }
-    .nav{
+    .nav {
         width: content-box;
         position: absolute;
-        left: 60%;
-        top: 65vh;
+        left: 55%;
+        top: 61vh;
         color: blue;
         margin: 10px;
     }
@@ -295,29 +296,34 @@ vedio{
         width: 350px;
         top: 100vh;
     }
-    .kavi{
+    .kavi {
         width: content-box;
-        top: 90vh;
+        top: 86vh;
         position: absolute;
-        left: 50%;
-        font-size: 28px;
+        left: 46%;
+        font-size: 30px;
     }
-    .description{
+    .description {
         width: content-box;
-        top: 100vh;
+        top: 94vh;
         position: absolute;
-        left: 40%;
-        font-size: 23px;
+        left: 38%;
+        font-size: 25px;
     }
-    .download{
+    .download {
         width: content-box;
-        top: 140vh;
+        top: 122vh;
         position: absolute;
-        left: 80%;
-        font-size: 20px;
+        left: 77%;
+        font-size: 22px;
     }
     .tool>a{
         width: 50px;
+    }
+    footer {
+        width: 100%;
+        bottom: 0;
+        position: relative;
     }
 }
 

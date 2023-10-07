@@ -2,7 +2,7 @@ body{
     /*background-color:rgb(190,106,211);*/
     background: linear-gradient(176deg,purple, white);
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
     height: content-box;
     position: relative;
 }
@@ -65,7 +65,7 @@ footer>div{
 }
 
 .footer{
-    width: 500px;
+    /*width: 500px;*/
     position: absolute;
     font-size: 40px;
 }
@@ -196,7 +196,7 @@ footer>div{
 
     /*    footer    */
     .footer{
-        width: 500px;
+        /*width: 500px;*/
         position: absolute;
         font-size: 18px;
         margin-left: 20px;
@@ -269,7 +269,7 @@ footer>div{
         margin: 2px 5px;
     }
     .footer{
-        width: 500px;
+        /*width: 500px;*/
         position: absolute;
         font-size: 15px;
         margin-left: 20px;
@@ -339,7 +339,7 @@ footer>div{
         margin: 2px 5px;
     }
     .footer{
-        width: 500px;
+        /*width: 500px;*/
         position: absolute;
         font-size: 13px;
         margin-left: 10px;

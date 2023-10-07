@@ -78,7 +78,7 @@ div>p{
     object-fit: cover;
 }
 
-@media all and (max-width: 1440px) and (min-width: 1025px){
+@media all and (max-width: 1440px) {
     .box{
         position: absolute;
         width: 300px;
@@ -95,7 +95,7 @@ div>p{
     }
 
 }
-@media all and (max-width: 1024px) and (min-width: 769px){
+@media all and (max-width: 1024px) {
     .box{
         position: absolute;
         width: 250px;
@@ -149,7 +149,7 @@ div>p{
         margin: 51px;
     }
 }
-@media all and (max-width: 768px) and (min-width: 426px) {
+@media all and (max-width: 768px){
     .box{
         position: absolute;
         width: 100px;
@@ -192,7 +192,7 @@ div>p{
 
 
 }
-@media all and (max-width: 425px) and (min-width: 376px){
+@media all and (max-width: 425px) {
     .box{
         position: relative;
         width: 50px;
@@ -235,7 +235,7 @@ div>p{
         transform: rotateY(calc(var(--i) * 45deg))translateZ(400px);
     }
 }
-@media all and (max-width: 375px) and (min-width: 321px){
+@media all and (max-width: 375px) {
     .box{
         position: relative;
         width: 500px;
@@ -324,7 +324,7 @@ div>p{
 }
 /*          box         */
 
-@media all and (max-width: 1440px) and (min-width: 1025px){
+@media all and (max-width: 1440px){
     .div:first-child{
         width:40vw;
         height: 10vw;

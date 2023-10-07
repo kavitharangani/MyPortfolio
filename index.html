@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="CSS/home.css">
 <!--    <link rel="stylesheet" href="CSS/header&footer.css">-->
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
 <header >
     <img  class="hikg" src="assests/img/home img.jpg" alt="Home Main Photo My img">
     <nav>
         <Center>
-        <h2 >
+        <h2 class="mainphoto animate__animated animate__backInDown">
             <a class="home" href="index.html">Home</a>
             <a href="HTML/project.html">Project</a>
             <a href="HTML/skill.html">Skills</a>
@@ -30,7 +35,7 @@
         </h2>
         </Center>
     </nav>
-    <img src="assests/img/home.jpg" alt="Home Main Photo" class="mainphoto">
+    <img src="assests/img/home.jpg" alt="Home Main Photo" class="mainphoto" >
     <!--        <h3 class="t1">Hi! I'm </h3>-->
 
     <h3 class="t1">
@@ -50,16 +55,7 @@
     <div class="container">
         <h3 class="t3">I'm <span class="auto-type"></span></h3>
     </div>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-    <script>
-        var typed= new Typed(".auto-type",{
-            strings:["Coding ...","Designing ...","Developing ..."],
-            typeSpeed :150,
-            backSpeed :150,
-            loop: true
-        })
-    </script>
     <a  class="hire" href="HTML/hireMe.html"><button type="button">Hire Me</button></a>
 
 </header>
@@ -76,8 +72,8 @@
 <br>
 <img src="assests/img/img_1.png" alt="About" width="500" class="aboutImg">
 <br>
-<h1 class="kavi">Kavindya Tharangani Kandegedra</h1>
-<p class="description">I’m kavindya tharangani.I live in kurunegala.
+<h1 class="kavi" >Kavindya Tharangani Kandegedra</h1>
+<p class="description" data-aos="fade-left">I’m kavindya tharangani.I live in kurunegala.
     I’m study at Balalla U.B wanninayaka school.I study at IJSE Institute hire education.
 </p>
 <a class="download" href="assests/cv/Kavindya%20CV.docx"><button>Download My CV</button></a>
@@ -85,12 +81,12 @@
 <br>
 <br>
 <center>
-    <h1 id="tools">Tools</h1>
+    <h1 id="tools"class="animate__animated animate__bounce" kavi >Tools</h1>
 </center>
 <br>
 <br>
 <br>
-<section class="tool">
+<section class="tool" data-aos="fade-up">
     <a href=""><img src="assests/img/icons8_intellij_idea_480px.png" alt="" width="100"></a>
     <a href=""><img src="assests/img/icons8_adobe_illustrator_480px.png" alt="" width="100"></a>
     <a href=""><img src="assests/img/icons8_adobe_photoshop_480px.png" alt="" width="100"></a>
@@ -159,5 +155,21 @@
         </nav>
     </div>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<script>
+    var typed= new Typed(".auto-type",{
+        strings:["Coding ...","Designing ...","Developing ..."],
+        typeSpeed :150,
+        backSpeed :150,
+        loop: true
+    })
+</script>
+
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

@@ -272,7 +272,7 @@
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media all and (max-width: 1024px){
     .box{
         background:  linear-gradient(170deg,gray, white);
         width: 700px;
@@ -355,7 +355,7 @@
 
     }
 }
-@media all and (min-width: 425px) and (max-width: 768px){
+@media all and (max-width: 768px){
     .box{
         background:  linear-gradient(170deg,gray, white);
         width: 500px;
@@ -514,7 +514,7 @@
     }
 
 }
-@media all and (min-width: 375px) and (max-width: 425px){
+@media all and (max-width: 425px){
     .box{
         background:  linear-gradient(170deg,gray, white);
         width: 400px;
