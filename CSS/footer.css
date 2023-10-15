@@ -1,6 +1,7 @@
-.footer {
+footer {
     margin: 0px;
     padding: 0px;
+    bottom: -630px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-align: center;

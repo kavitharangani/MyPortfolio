@@ -1,179 +1,180 @@
 {
     width: 100vw;
     height: content-box;
-    /*display: flex;*/
+    display: inline;
     position: relative;
     top: 5vw;
 }
-.subhead{
-    width: fit-content;
-    position: relative;
-    left: 4%;
-}
-.container{
-    left: 0;
-    right: 0;
-    margin: auto;
+.row {
     width: 100%;
-    height: 100vh;
+    min-height: 50vh;
     display: flex;
-    border: 0;
+    flex-wrap: wrap;
+    gap: 110px 120px;
+}
+#skill>h1{
+    color: #535353;
+    text-align: center;
+    margin: 20px 0;
+}
+#skill>section{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 25px auto;
+}
+#skill .skill-container{
+    display: flex;
+    width: 300px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+#skill .circular-progress{
     position: relative;
-    left: 2%;
-}
-.skill h2{
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    color: #000;
-    font-size: 16px;
-}
-.progress-bar{
-    background: #959595;
-    width: 1000px;
-    height: 20px;
-    border-radius: 5px;
-}
-.progress-bar div{
-    height: 20px;
-    border-radius: 5px;
-    width: 0%;
-
-}
-.progress-bar div span{
-    height: 40px;
-    width: 40px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    border: 1px solid black;
-    float: right;
-    margin-top: -11px;
-    margin-right: -20px;
-    color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
 }
-.html{
-    background: red;
-    animation: html 2s linear forwards;
+#skill .circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #ffffff;
 }
-.css{
-    background: gold;
-    animation: css 2s linear forwards;
+#skill .progress-value{
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
 }
-.photoshop{
-    background: green;
-    animation: photoshop 2s linear forwards;
+#skill .text{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #000000;
 }
-.javascript{
-    background: deeppink;
-    animation: javascript 2s linear forwards;
+#skill .per-95{
+    background: conic-gradient(plum 95%,#D9D9D9 0deg);
 }
-.python{
-    background: darkmagenta;
-    animation: python 2s linear forwards;
+#skill .per-98{
+    background: conic-gradient(plum 98%,#D9D9D9 0deg);
 }
-.database{
-    background: mediumspringgreen;
-    animation: database 2s linear forwards;
+#skill .per-85{
+    background: conic-gradient(plum 85%,#D9D9D9 0deg);
 }
-.design{
-    background: palegoldenrod;
-    animation: design 2s linear forwards;
+#skill a{
+    position: relative;
 }
-.nodejs{
-    background: darkblue;
-    animation: nodejs 2s linear forwards;
+.skill-box .content .percent {
+    position: relative;
+    margin: 0;
+    width: 150px;
+    height: 150px;
 }
-.coading{
-    background: mediumvioletred;
-    animation: coading 2s linear forwards;
+
+.skill-box .content .percent::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 20px;
+    background:plum;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.75rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
-.c\+\+{
-    background: greenyellow;
-    animation: c\+\+ 2s linear forwards;
+.skill-box:nth-child(3) .content .percent::before{
+    font-size: 0.9rem;
 }
-@keyframes html {
-    100%{
-        width: 80%;
+
+.skill-box .content .percent svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+.skill-box .content .percent svg circle {
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 3;
+    stroke: #fbedb6;
+    transform: translate(5px, 5px);
+}
+
+.skill-box .content .percent svg circle:nth-child(2) {
+    stroke: purple;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+.content{
+    height: 206px;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
     }
-}
-@keyframes css {
-    100%{
-        width: 70%;
-    }
-}
-@keyframes photoshop {
-    100%{
-        width: 90%;
-    }
-}
-@keyframes javascript {
-    100%{
-        width: 80%;
-    }
-}
-@keyframes python {
-    100%{
-        width: 75%;
-    }
-}
-@keyframes database {
-    100%{
-        width: 90%;
-    }
-}
-@keyframes design {
-    100%{
-        width: 75%;
-    }
-}
-@keyframes nodejs {
-    100%{
-        width: 72%;
-    }
-}
-@keyframes coading {
-    100%{
-        width: 80%;
-    }
-}
-@keyframes c\+\+ {
-    100%{
-        width:60%;
+    100% {
+        opacity: 1;
     }
 }
 
-/*.skillSection{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    box-sizing: border-box;*/
-/*    font-family: 'Poppins', sans-serif;*/
+.skill-box .content .percent .dot {
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    animation: animateDot 2s linear forwards;
+}
 
-/*}*/
-/*.skillSection>body{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    min-height: 100vh;*/
-/*    background: #222;*/
+@keyframes animateDot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(calc(3.6deg * var(--num)));
+    }
+}
 
-/*}*/
-/*.skillContainer{*/
-/*    position: relative;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    flex-wrap: wrap;*/
-/*    gap: 40px;*/
-/*}*/
-/*.skillContainer.progress{*/
-/*    position: relative;*/
-/*    width: 150px;*/
-/*    height: 150px;*/
-/*    border-radius: 50%;*/
-/*    color: #fff;*/
-/*    background: #444 linear-gradient(to right, transparent 50%, var(--clr)0);*/
-/*}*/
+.skill-box .content .percent .dot::before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 14px;
+    height: 14px;
+    background: plum;
+    border-radius: 50%;
+}
+
+.skill-box .content .number {
+    position: relative;
+    inset: 0;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+
+.skill-box .content .number h2 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.skill-box .content .number h2 span {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
