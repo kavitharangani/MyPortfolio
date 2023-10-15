@@ -1,318 +1,59 @@
-.area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*gallery*/
+.gallery{
     min-height: 100vh;
+    /*background: #eee;*/
+    padding-bottom: 100px;
+}
 
-}
-.container{
-    position: relative;
-    width: 600px;
-    height: 600px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-}
-.container .icon{
-    position: relative;
-    left: -50%;
-    width: 100%;
-    height: 100%;
+.gallery .controls{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.gallery .controls .buttons{
+    height: 40px;
+    width: 140px;
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    line-height: 20px;
     cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    text-align: center;
 }
-.container .icon .imgBx{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 0 4px #000000, 0 0 0 6px #ffffff;
-    transform: rotate(calc(360deg/8 * var(--i)));
-    transform-origin: 340px;
-    z-index: 100;
-    overflow: hidden;
-}
-.container .icon .imgBx.active {
-    box-shadow: 0 0 0 6px #000000, 0 0 0 12px #ff1d50;
-}
-.container .icon .imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    transform: rotate(calc(-360deg/8 * var(--i)));
-    transition: 0.5s;
-    filter: grayscale(1);
-}
-.container .icon .imgBx.active img{
-    filter: grayscale(0);
-}
-.content{
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content::before{
-    content: '';
-    position: absolute;
-    inset: 60px;
-    border: 4px solid transparent;
-    border-left: 4px solid indigo;
-    border-right: 4px solid forestgreen;
-    border-radius: 50%;
-    animation: animte_01 5s linear infinite;
-    z-index: 1;
-    pointer-events: none;
-}
-@keyframes animte_01 {
-    0%{
-        rotate:0deg;
-    }
-    100%{
-        rotate:360deg;
-    }
-}
-.content::after{
-    content: '';
-    position: absolute;
-    inset: 120px;
-    border: 4px solid transparent;
-    border-left: 4px solid blue;
-    border-right: 4px solid red;
-    border-radius: 50%;
-    animation: animte_02 2.5s linear infinite;
-    z-index: 1;
-    pointer-events: none;
-}
-@keyframes animte_02 {
-    0%{
-        rotate:360deg;
-    }
-    100%{
-        rotate:0deg;
-    }
-}
-.contentBx{
-    position: absolute;
-    transform: scale(0);
-    transition: 0.5s;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contentBx.active{
-    transform: scale(1);
-    opacity: 1;
-    transition-delay: 0.5s;
-}
-.contentBx.card{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-}
-.contentBx .card .imgBx{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.contentBx .card .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-/*                       Photos                    */
-@media all and (min-width: 426px) and (max-width: 768px){
-    .area{
-        width: content-box;
-        left: 2%;
-        position: relative;
-    }
-}
-@media all and (max-width: 425px) and (min-width: 376px){
-    .area{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: content-box;
 
-    }
-    .container{
-        position: relative;
-        width: 100px;
-        height: 100px;
-        border: 2px solid #fff;
-        border-radius: 50%;
-    }
-    .container .icon{
-        position: relative;
-        left: -50%;
-        width: 60%;
-        height: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-    .container .icon .imgBx{
-        position: absolute;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        transition: 0.5s;
-        border: 1px solid #ffffff;
-        box-shadow: 0 0 0 4px #000000, 0 0 0 6px #ffffff;
-        transform: rotate(calc(360deg/8 * var(--i)));
-        transform-origin: 340px;
-        z-index: 100;
-        overflow: hidden;
-    }
-    .container .icon .imgBx.active {
-        box-shadow: 0 0 0 6px #000000, 0 0 0 12px #ff1d50;
-    }
-    .container .icon .imgBx img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 50%;
-        border-radius: 50%;
-        object-fit: cover;
-        transform: rotate(calc(-360deg/8 * var(--i)));
-        transition: 0.5s;
-        filter: grayscale(1);
-    }
-    .container .icon .imgBx.active img{
-        filter: grayscale(0);
-    }
-    .content{
-        position: absolute;
-        inset: 0;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .content::before{
-        content: '';
-        position: absolute;
-        inset: 60px;
-        border: 4px solid transparent;
-        border-left: 4px solid indigo;
-        border-right: 4px solid forestgreen;
-        border-radius: 50%;
-        animation: animte_01 5s linear infinite;
-        z-index: 1;
-        pointer-events: none;
-    }
-    @keyframes animte_01 {
-        0%{
-            rotate:0deg;
-        }
-        100%{
-            rotate:360deg;
-        }
-    }
-    .content::after{
-        content: '';
-        position: absolute;
-        /*inset: 120px;*/
-        inset: 80px;
-        border: 4px solid transparent;
-        border-left: 4px solid blue;
-        border-right: 4px solid red;
-        border-radius: 50%;
-        animation: animte_02 2.5s linear infinite;
-        z-index: 1;
-        pointer-events: none;
-    }
-    @keyframes animte_02 {
-        0%{
-            rotate:360deg;
-        }
-        100%{
-            rotate:0deg;
-        }
-    }
-    .contentBx{
-        position: absolute;
-        transform: scale(0);
-        transition: 0.5s;
-        opacity: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .contentBx.active{
-        transform: scale(1);
-        opacity: 1;
-        transition-delay: 0.5s;
-    }
-    .contentBx.card{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 15px;
-    }
-    .contentBx .card .imgBx{
-        position: relative;
-        width: 50px;
-        height: 50px;
-        border-radius: 10px;
-        overflow: hidden;
-    }
-    .contentBx .card .imgBx img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 75%;
-        height: 75%;
-        object-fit: cover;
-    }
+.gallery .controls .buttons :hover{
+    background: coral;
+    color: #fff;
+
 }
-/*@media all and (min-width: 375px) and (max-width: 425px){*/
-/*    .skill{*/
-/*        width: content-box;*/
-/*        font-size: 20px;*/
-/*        left: 10%;*/
-/*        position: relative;*/
-/*        font-weight: 4000;*/
-/*    }*/
-/*}*/
-/*@media all and (min-width: 320px) and (max-width: 375px){*/
-/*    .skill{*/
-/*        width: content-box;*/
-/*        font-size: 10px;*/
-/*        left: 5%;*/
-/*        position: relative;*/
-/*        font-weight: 4000;*/
-/*    }*/
-/*}*/
-/*@media all and (max-width: 320px){*/
-/*    main>.skill{*/
-/*        width: content-box;*/
-/*        font-size: 5px;*/
-/*        left: 5%;*/
-/*        position: relative;*/
-/*        font-weight: 3000;*/
-/*    }*/
-/*}*/
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery .image-container .image{
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border: 15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+
+}
+
+.gallery .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img{
+    transform: scale(1.4);
+}

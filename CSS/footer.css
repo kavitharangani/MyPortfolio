@@ -1,0 +1,27 @@
+.footer{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #eef8ff;
+
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-bottom-left-radius: 125px;
+    font-size: 20px;
+}
+.row{
+    width: 58%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}

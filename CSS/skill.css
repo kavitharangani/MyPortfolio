@@ -1,326 +1,176 @@
-.skill{
-    width: content-box;
-    font-size: 50px;
-    left: 20%;
-    position: relative;
-    font-weight: 7000;
-}
-.div1{
-    width: 24%;
-    height: content-box;
-    position: relative;
-    margin: 2px 20px;
-}
-div>center>img{
-    width: content-box;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-div>center>h2{
-    width: content-box;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 120px;
-}
-div>center>p{
-    width: 140px;
-    height: fit-content;
-    position: absolute;
-    top: 150px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-.sec1{
+.{
     width: 100vw;
     height: content-box;
     display: flex;
     position: relative;
-    top:5vw;
+    top: 5vw;
 }
-
-.presentage{
-    width: content-box;
-    top: 5px;
-    margin-top: 10px;
-    left: 50%;
+.subhead{
+    width: fit-content;
     position: relative;
-    font-size: 20px;
+    left: 4%;
 }
-/*.imgflex{*/
-/*    display: flex;*/
-/*}*/
-/*.hflex{*/
-/*    display: flex;*/
-/*}*/
-/*.pflex{*/
-/*    display: flex;*/
-/*}*/
-.progress-title{
-    width: 50%;
-    height: auto;
-    left: 30%;
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 0;
     position: relative;
+    left: 2%;
 }
-.progress-title h3{
-    font-size: 18px;
-    font-weight: 700;
-    color: black;
-    margin: 0 0 20px;
+.skill h2{
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 16px;
 }
-.progress{
+.progress-bar{
+    background: #959595;
+    width: 1000px;
     height: 20px;
-    background: white;
-    border-radius: 20px;
-    border: 1px solid #000;
-    box-shadow: 0 2px 2px plum;
-    margin-bottom: 40px;
-    overflow: visible;
-    position: relative;
+    border-radius: 5px;
 }
-.progress .progress-bar{
-    border-radius: 20px;
-    border: 10px solid blue;
-    animation: animate-positive 2s;
-
+.progress-bar div{
+    height: 20px;
+    border-radius: 5px;
+    width: 0%;
 
 }
-.progress .progress-value{
-    width: 65px;
-    height: 25px;
-    line-height: 25px;
-    background: #171b3c;
-    font-size: 15px;
-    color: #fff;
-    border-radius: 0 0 15px 15px;
-    border: 1px solid white;
-    border-top: none;
-    box-shadow: 0 2px 2px #4f4c4c ;
-    position: absolute;
-    bottom: -25px;
-    right: 60px;
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: right;
+    margin-top: -11px;
+    margin-right: -20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
 }
-.sec2{
-    width: 100vw;
-    height: content-box;
-    position: relative;
-    top: 20vw;
+.html{
+    background: red;
+    animation: html 2s linear forwards;
 }
-@-webkit-keyframes animate-positive {
-    0% {
-        width: 0;
+.css{
+    background: gold;
+    animation: css 2s linear forwards;
+}
+.photoshop{
+    background: green;
+    animation: photoshop 2s linear forwards;
+}
+.javascript{
+    background: deeppink;
+    animation: javascript 2s linear forwards;
+}
+.python{
+    background: darkmagenta;
+    animation: python 2s linear forwards;
+}
+.database{
+    background: mediumspringgreen;
+    animation: database 2s linear forwards;
+}
+.design{
+    background: palegoldenrod;
+    animation: design 2s linear forwards;
+}
+.nodejs{
+    background: darkblue;
+    animation: nodejs 2s linear forwards;
+}
+.coading{
+    background: mediumvioletred;
+    animation: coading 2s linear forwards;
+}
+.c\+\+{
+    background: greenyellow;
+    animation: c\+\+ 2s linear forwards;
+}
+@keyframes html {
+    100%{
+        width: 80%;
     }
+}
+@keyframes css {
+    100%{
+        width: 70%;
+    }
+}
+@keyframes photoshop {
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript {
+    100%{
+        width: 80%;
+    }
+}
+@keyframes python {
+    100%{
+        width: 75%;
+    }
+}
+@keyframes database {
+    100%{
+        width: 90%;
+    }
+}
+@keyframes design {
+    100%{
+        width: 75%;
+    }
+}
+@keyframes nodejs {
+    100%{
+        width: 72%;
+    }
+}
+@keyframes coading {
+    100%{
+        width: 80%;
+    }
+}
+@keyframes c\+\+ {
+    100%{
+        width:60%;
+    }
+}
 
-}
-@keyframes animate-positive {
-    0% {
-        width: 0;
-    }
+/*.skillSection{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: 'Poppins', sans-serif;*/
 
-}
-@media all and (max-width: 1440px){
-    main>.skill{
-        width: content-box;
-        font-size: 50px;
-        left: 20%;
-        position: relative;
-        font-weight: 7000;
-    }
-}
+/*}*/
+/*.skillSection>body{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    min-height: 100vh;*/
+/*    background: #222;*/
 
-@media all and (min-width: 768px) and (max-width: 1024px){
-    main>.skill{
-        width: content-box;
-        font-size: 40px;
-        left: 15%;
-        position: relative;
-        font-weight: 5000;
-    }
-}
-@media all and (min-width: 425px) and (max-width: 768px){
-    .skill{
-        width: content-box;
-        font-size: 30px;
-        left: 10%;
-        position: relative;
-        font-weight: 4000;
-    }
-}
-@media all and (min-width: 375px) and (max-width: 425px){
-    .skill{
-        width: content-box;
-        font-size: 20px;
-        left: 10%;
-        position: relative;
-        font-weight: 4000;
-    }
-}
-@media all and (min-width: 320px) and (max-width: 375px){
-    .skill{
-        width: content-box;
-        font-size: 10px;
-        left: 5%;
-        position: relative;
-        font-weight: 4000;
-    }
-}
-@media all and (max-width: 320px){
-    main>.skill{
-        width: content-box;
-        font-size: 5px;
-        left: 5%;
-        position: relative;
-        font-weight: 3000;
-    }
-}
-@media all and (max-width: 1440px) and (min-width: 1025px){
-
-    .div1{
-        width: 24%;
-        height: 15vw;
-        /*left: 2%;*/
-    }
-    div>img{
-        width: content-box;
-        left: 8vw;
-    }
-    div>center>h2{
-        width: content-box;
-        font-size: 20px;
-    }
-    div>p{
-        width: 140px;
-    }
-}
-@media all and (max-width: 1024px) and (min-width: 769px){
-
-    .div1{
-        width: 18%;
-        height: 20vw;
-        left: 2%;
-        margin: 2px 20px;
-    }
-    div>img{
-        width: content-box;
-        left: 6vw;
-    }
-    div>center>h2{
-        width: content-box;
-        font-size: 15px;
-    }
-    div>p{
-        width: 60px;
-    }
-}
-@media all and (max-width: 768px) and (min-width: 426px){
-    .sec1{
-        flex-direction: column;
-    }
-    .div1{
-        width: 40%;
-        height: 30vw;
-        left: 2%;
-        margin-bottom: 2px;
-    }
-    div>img{
-        width: content-box;
-        left: 200px;
-    }
-    div>center>h2{
-        width: content-box;
-        font-size: 20px;
-    }
-    div>p{
-        width: 200px;
-    }
-}
-@media all and (max-width: 425px) and (min-width: 376px){
-    .sec1{
-        flex-direction: column;
-    }
-    .div1{
-        width: 65%;
-        height: 50vw;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-bottom: 2px;
-    }
-    div>img{
-        width: content-box;
-        left: 6vw;
-    }
-    div>center>h2{
-        width: content-box;
-        font-size: 20px;
-    }
-    div>p{
-        width: 300px;
-    }
-}
-@media all and (max-width: 375px) and (min-width: 321px){
-    .sec1{
-        flex-direction: column;
-    }
-    .div1{
-        width: 65%;
-        height: 60vw;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-bottom: 2px;
-    }
-    div>img{
-        width: content-box;
-        left: 6vw;
-    }
-    div>center>h2{
-        width: content-box;
-        font-size: 20px;
-    }
-    div>p{
-        width: 300px;
-    }
-}
-@media all and (max-width: 320px) and (min-width: 0px){
-    .sec1{
-        flex-direction: column;
-    }
-    .div1{
-        width: 65%;
-        height: 70vw;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-bottom: 2px;
-    }
-    div>img{
-        width: content-box;
-        left: 6vw;
-    }
-    div>center>h2{
-        width: content-box;
-        font-size: 20px;
-    }
-    div>p{
-        width:300px;
-    }
-    main>h1{
-        width: content-box;
-        font-size: 40px;
-        left: 20%;
-        position: relative;
-        font-weight: 7000;
-    }
-    main>.skill {
-        width: content-box;
-        left: 32%;
-        font-size: 50px;
-        position: relative;
-        font-weight: 2875;
-    }
-}
+/*}*/
+/*.skillContainer{*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 40px;*/
+/*}*/
+/*.skillContainer.progress{*/
+/*    position: relative;*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border-radius: 50%;*/
+/*    color: #fff;*/
+/*    background: #444 linear-gradient(to right, transparent 50%, var(--clr)0);*/
+/*}*/

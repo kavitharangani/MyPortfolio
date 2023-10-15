@@ -1,297 +1,146 @@
-::selection{
-    background-color: #018A8A;
-}
-#assignment-section{
-    /*background-color: #edfbfc;*/
-    position: relative;
-    top: 5vh;
-    height: 100vh;
-    width: 72vw;
-    padding-left: 14vw;
-    padding-right: 14vw;
-}
-#assignment-section>h1{
-    width: 24vw;
-    font-family: 'Catamaran';
-    font-size: 4vw;
-    font-weight: 900;
-    color: #0A0A0A;
-    position: absolute;
-    top: 5vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-#assignment-section>div{
-    width: 10vw;
-    height: 20vh;
-    background-color: white;
-    box-shadow: #D0D0D0 0px 2px 7px;
-    border-radius: 2vh;
-    position: absolute;
-    margin: auto;
-}
-#assignment-section>div>h4{
-    width: 7vw;
-    font-family: 'Catamaran';
-    font-size: 1vw;
-    font-weight: 300;
-    color: #0A0A0A;
-    position: absolute;
-    top: 5vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-#box1{
-    top: 30vh;
-    left: 19vw;
-}
-#box2{
-    top: 30vh;
-    left: 30vw;
-}
-#box3{
-    top: 30vh;
-    left: 41vw;
-}
-#box4{
-    top: 30vh;
-    left: 52vw;
-}
-#box5{
-    top: 30vh;
-    left: 63vw;
-}
-#box6{
-    top: 30vh;
-    left: 74vw;
-}
-#box7{
-    top: 60vh;
-    left: 19vw;
-}
-#box8{
-    top: 60vh;
-    left: 30vw;
-}
-#box9{
-    top: 60vh;
-    left: 41vw;
-}
-#box10{
-    top: 60vh;
-    left: 52vw;
-}
-#box11{
-    top: 60vh;
-    left: 63vw;
-}
-#box12{
-    top: 60vh;
-    left: 74vw;
-}
-#assignment-section>div>h6{
-    width: 1.7vw;
-    font-faily: Inter, SansSerif;
-    font-size: 0.8vw;
-    font-weight: 600;
-    position: absolute;
-    bottom: 5vh;
-    right: 0;
-    left: 0;
-    margin: auto;
-    background-color: hotpink;
-    border-radius: 8px;
-    padding: 1vh;
-    box-shadow: deeppink 0px 4px 12px;
-}
-#assignment-section>div>h6>a {
-    color: white;
-    text-decoration: none;
-}
-@media all and (max-width: 1440px){
 
+section>#assignmentBorder{
+    background-color: #44BD32;
+    width: fit-content;
+    height: 70px;
+    position: relative;
+    margin-left: 17vh;
 }
-@media all and (max-width: 1024px){
-    #assignment-section{
-        top: 85vh;
-        height: 70vh;
-    }
-    #box1{
-        top: 20vh;
-    }
-    #box2{
-        top: 20vh;
-    }
-    #box3{
-        top: 20vh;
-    }
-    #box4{
-        top: 20vh;
-    }
-    #box5{
-        top: 20vh;
-    }
-    #box6{
-        top: 20vh;
-    }
-    #box7{
-        top: 45vh;
-    }
-    #box8{
-        top: 45vh;
-    }
-    #box9{
-        top: 45vh;
-    }
-    #box10{
-        top: 45vh;
-    }
-    #box11{
-        top: 45vh;
-    }
-    #box12{
-        top: 45vh;
-    }
+
+body>#As {
+    /*width: 100%;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background: black;*/
+    width: 100vw;
+    position: relative;
+    margin: 0;
 }
-@media all and (max-width: 768px) {
-    #assignment-section {
-        top: 65vh;
-        height: 70vh;
-    }
-    #assignment-section>div{
-        width: 13vw;
-    }
-    #box1{
-        left: 5vw;
-    }
-    #box2{
-        left: 20vw;
-    }
-    #box3{
-        left: 35vw;
-    }
-    #box4{
-        left: 50vw;
-    }
-    #box5{
-        left: 65vw;
-    }
-    #box6{
-        left: 80vw;
-    }
-    #box7{
-        left: 5vw;
-    }
-    #box8{
-        left: 20vw;
-    }
-    #box9{
-        left: 35vw;
-    }
-    #box10{
-        left: 50vw;
-    }
-    #box11{
-        left: 65vw;
-    }
-    #box12{
-        left: 80vw;
-    }
-    #assignment-section>div>h4{
-        width: 10vw;
-        font-size: 1.5vw;
-    }
-    #assignment-section>div>h6{
-        width: 2vw;
-        font-size: 1vw;
-        border-radius: 5px;
-    }
+
+#assignment{
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 8px;
 }
-@media all and (max-width: 425px) {
-    #assignment-section {
-        top: 130vh;
-        height: 95vh;
-    }
-    #assignment-section>h1 {
-        width: 27vw;
-        font-size: 7vw;
-    }
-    #assignment-section>div{
-        width: 20vw;
-    }
-    #assignment-section>div>h4{
-        width: 16vw;
-        font-size: 2.5vw;
-    }
-    #box1{
-        top: 20vh;
-        left: 5vw;
-    }
-    #box2{
-        top: 20vh;
-        left: 29vw;
-    }
-    #box3{
-        top: 20vh;
-        left: 53vw;
-    }
-    #box4{
-        top: 20vh;
-        left: 77vw;
-    }
-    #box5{
-        top: 45vh;
-        left: 5vw;
-    }
-    #box6{
-        top: 45vh;
-        left: 29vw;
-    }
-    #box7{
-        top: 45vh;
-        left: 53vw;
-    }
-    #box8{
-        top: 45vh;
-        left: 77vw;
-    }
-    #box9{
-        top: 70vh;
-        left: 5vw;
-    }
-    #box10{
-        top: 70vh;
-        left: 29vw;
-    }
-    #box11{
-        top: 70vh;
-        left: 53vw;
-    }
-    #box12{
-        top: 70vh;
-        left: 77vw;
-    }
-    #assignment-section>div>h6{
-        width: 5vw;
-        font-size: 2vw;
-    }
+
+section>#assignment{
+    background-color: #44BD32;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-left: 50px;
 }
-@media all and (max-width: 375px) {
-    #assignment-section {
-        top: 125vh;
-    }
-    #assignment-section>h1 {
-        font-size: 8vw;
-    }
-    #assignment-section>div>h4{
-        width: 19vw;
-        font-size: 3vw;
-    }
+
+.container2{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -40px;
 }
-@media all and (max-width: 320px) {
-    #assignment-section {
-        top: 115vh;
-    }
+
+.box{
+    width: 290px;
+    height: 400px;
+    border: 2px solid #44BD32;
+    border-radius: 5px;
+    padding: 80px 20px 20px 20px;
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
 }
+
+.box h3{
+    font-size: 35px;
+    padding: 30px 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box p{
+    font-size: 15px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.box .assButton{
+    width: 140px;
+    height: 40px;
+    background-color: #44BD32;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.1s;
+    position: relative;
+    top: 20px;
+    right: 0;
+}
+
+.box button:hover{
+    letter-spacing: 1px;
+    width: 145px;
+}
+
+.box::before{
+    width: 100%;
+    height: 100%;
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.box::after{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #ffffff 0%, #44BD32 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    clip-path: circle(20% at 90% 10%);
+    transition: .7s;
+}
+
+.box .count{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.box:hover::after{
+    clip-path: circle(100%);
+}
+
+.box:hover h3{
+    color: black;
+}
+
+.box:hover p{
+    color: black;
+}
+
+.box:hover button{
+    background-color: black;
+}
+
