@@ -1,0 +1,132 @@
+section>#galleryBorder{
+    background-color: plum;
+    width: 210px;
+    height: 70px;
+    position: relative;
+    margin-left: 17vh;
+}
+
+.containerQty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    top: 80px;
+    /*background: black;*/
+    padding: 100px 130px 100px 130px;
+}
+
+.containerQty .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    border: 3px solid brown;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+.containerQty .card:hover{
+    height: 400px;
+}
+
+.containerQty .card .imgBox{
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    height: 220px;
+    border-radius: 12px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.containerQty .card:hover .imgBox{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.containerQty .card .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.containerQty .card .content{
+    position: absolute;
+    top: 240px;
+    width: 90%;
+    height: 30px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.containerQty .card:hover .content{
+    top: 120px;
+    height: 250px;
+}
+
+.containerQty .card .content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerQty .card .content p{
+    color: black;
+    font-size: 1.05em;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    top: 20px;
+}
+
+.containerQty .card .content a{
+    position: relative;
+    top: 45px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: plum;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+.containerQty .card .content a:hover {
+    background: black;
+    color: white;
+}
+
+
+section>#qualityBorder{
+    /*background-color: #44BD32;*/
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-left: 17vh;
+}
+
+#quality{
+    margin: 0;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}

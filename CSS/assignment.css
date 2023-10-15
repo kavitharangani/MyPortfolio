@@ -1,6 +1,6 @@
 
 section>#assignmentBorder{
-    background-color: #44BD32;
+    background-color: plum;
     width: fit-content;
     height: 70px;
     position: relative;
@@ -12,7 +12,7 @@ body>#As {
     /*background-size: cover;*/
     /*background-position: center;*/
     /*background: black;*/
-    width: 100vw;
+    width: 100%;
     position: relative;
     margin: 0;
 }
@@ -27,7 +27,7 @@ body>#As {
 }
 
 section>#assignment{
-    background-color: #44BD32;
+    background-color: plum;
     width: 200px;
     height: 70px;
     position: relative;
@@ -47,7 +47,7 @@ section>#assignment{
 .box{
     width: 290px;
     height: 400px;
-    border: 2px solid #44BD32;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 80px 20px 20px 20px;
     margin: 30px;
@@ -76,7 +76,8 @@ section>#assignment{
 .box .assButton{
     width: 140px;
     height: 40px;
-    background-color: #44BD32;
+    background-color:darkmagenta;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     color: white;
     border: none;
     outline: none;
@@ -109,7 +110,7 @@ section>#assignment{
 .box::after{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(45deg, #ffffff 0%, #44BD32 100%);
+    background-image: linear-gradient(176deg, #3f1c4f, white);;
     content: '';
     position: absolute;
     top: 0;

@@ -13,7 +13,7 @@
     background-size: cover;
 }
 .about{
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 60px 0px ;
 }
@@ -62,7 +62,7 @@ article>p{
     box-shadow: 0 0 0 0.2rem rgba(11, 206, 175, 0.5);
 
 }
-.btn {
+.btnHire{
     display: inline-block;
     font-weight: 600;
     color: white;
@@ -80,3 +80,16 @@ article>p{
     background-color: #218838;
     border-color: #1e7e34;
 }
+/*h2:before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    width: 120%;*/
+/*    height: 100%;*/
+/*    !*background: linear-gradient(90deg,transparent 0%,#000 5%,#000 5%);*!*/
+/*}*/
+
+/*h2 span{*/
+/*    color: #ff022c;*/
+
+/*}*/

@@ -1,9 +1,17 @@
+.contactStart>form{
+    left: 0;
+    right: 0;
+    margin:auto;
+    position: relative;
+
+}
 .contact{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    position: relative;
 }
 
 .contactStart{
@@ -77,3 +85,17 @@ textarea:valid~label{
     flex-basis: 48%;
 
 }
+
+/*@media all and(max-width: 320px) {*/
+/*    .contactStart {*/
+/*        width: 108%;*/
+/*        min-height: 100vh;*/
+/*        background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);*/
+/*        background-position: center;*/
+/*        background-size: cover;*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        justify-items: center;*/
+/*        position: absolute;*/
+/*    }*/
+/*}*/
