@@ -11,6 +11,13 @@
     font-size: 110px;
     margin: 0;
 }
+#a>div>#A_Letter1{
+    color: slateblue;
+    font-family: 'Josefin Slab', serif;
+    display: inline-block;
+    font-size: 110px;
+    margin: 0;
+}
 
 #a>div>span{
     color: black;
@@ -20,7 +27,7 @@
 
 #AboutName{
     position: absolute;
-    right: 400px;
+    left: 50%;
     top: 15%;
 }
 
@@ -73,4 +80,206 @@
     position: absolute;
     left: 160px;
     top: 177px;
+}
+
+/*media Query*/
+
+@media all and (max-width:1025px) {
+    #main {
+        width: 292px;
+        height: 349px;
+        position: absolute;
+        left: 37px;
+        top: 126px;
+    }
+    #AboutName {
+        position: absolute;
+        left: 34%;
+        top: 11%;
+    }
+    #a>h3 {
+        color: black;
+        position: absolute;
+        right: 27%;
+        top: 30%;
+        font-size: 25px;
+    }
+    #a>div>#Para {
+        left: 47px;
+        color: black;
+        font-family: 'Imprima', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        position: absolute;
+    }
+
+}
+
+@media all and (max-width:769px) {
+    #main {
+        width: 253px;
+        height: 287px;
+        position: absolute;
+        left: 37px;
+        top: 77px;
+    }
+    #a>h3 {
+        color: black;
+        position: absolute;
+        right: 17%;
+        top: 26%;
+        font-size: 20px;
+    }
+    #a>div>#Para {
+        margin-top: -41px;
+        left: 253px;
+        color: black;
+        font-family: 'Imprima', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        position: absolute;
+    }
+    #btnDownload {
+        color: white;
+        background-color: plum;
+        border: purple;
+        border-radius: 30px;
+        width: 127px;
+        height: 40px;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        top: 57%;
+        right: 15%;
+        transition: 0.5s;
+    }
+    #a>div>span {
+        color: black;
+        font-family: 'Josefin Slab', serif;
+        font-size: 37px;
+    }
+    #a>div>#A_Letter {
+        color: slateblue;
+        font-family: 'Josefin Slab', serif;
+        display: inline-block;
+        font-size: 81px;
+        margin: 0;
+    }
+    #a>div>#A_Letter1 {
+        color: slateblue;
+        font-family: 'Josefin Slab', serif;
+        display: inline-block;
+        font-size: 81px;
+        margin: 0;
+    }
+    #AboutName {
+        position: absolute;
+        left: 45%;
+        top: 11%;
+    }
+}
+@media all and (max-width:426px) {
+    #main {
+        width: 212px;
+        height: 240px;
+        position: absolute;
+        left: 113px;
+        top: 7px;
+    }
+    #AboutName {
+        position: absolute;
+        left: 6%;
+        top: 39%;
+    }
+    #a>h3 {
+        color: black;
+        position: absolute;
+        right: 13%;
+        top: 53%;
+        font-size: 23px;
+    }
+    #a>div>#Para {
+        margin-top: 111px;
+        left: 272px;
+        color: black;
+        font-family: 'Imprima', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        position: absolute;
+    }
+    #btnDownload {
+        color: white;
+        background-color: plum;
+        border: purple;
+        border-radius: 30px;
+        width: 127px;
+        height: 39px;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        top: 81%;
+        right: 22%;
+        transition: 0.5s;
+    }
+}
+
+
+@media all and (max-width:426px) {
+    #main {
+        width: 212px;
+        height: 240px;
+        position: absolute;
+        left: 82px;
+        top: 7px;
+    }
+    #a>div>#A_Letter {
+        color: slateblue;
+        font-family: 'Josefin Slab', serif;
+        display: inline-block;
+        font-size: 34px;
+        margin: 0;
+    }
+    #a>div>#A_Letter1 {
+        color: slateblue;
+        font-family: 'Josefin Slab', serif;
+        display: inline-block;
+        font-size: 34px;
+        margin: 0;
+    }
+    #a>div>span {
+        color: black;
+        font-family: 'Josefin Slab', serif;
+        font-size: 24px;
+    }
+    #AboutName {
+        position: absolute;
+        left: 18%;
+        top: 44%;
+    }
+    #a>div>#Para {
+        margin-top: 111px;
+        left: 324px;
+        color: black;
+        font-family: 'Imprima', sans-serif;
+        font-size: 11px;
+        text-align: justify;
+        position: absolute;
+    }
+    #a>h3 {
+        color: black;
+        position: absolute;
+        right: 13%;
+        top: 51%;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:321px) {
+    #main {
+        width: 212px;
+        height: 240px;
+        position: absolute;
+        left: 53px;
+        top: 7px;
+    }
 }

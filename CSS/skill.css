@@ -7,7 +7,7 @@
 }
 .row {
     position: relative;
-    left: 5%;
+    left: 17%;
     width: 74%;
     min-height: 50vh;
     display: flex;
@@ -179,4 +179,43 @@
 .skill-box .content .number h2 span {
     font-weight: 300;
     font-size: 1.5rem;
+}
+
+
+/*Media Query*/
+
+@media all and (max-width:426px) {
+    .row {
+        position: relative;
+        left: 10%;
+        width: 85%;
+        min-height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px -5px;
+    }
+}
+
+@media all and (max-width:376px) {
+    .row {
+        position: relative;
+        left: 4%;
+        width: 89%;
+        min-height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px -5px;
+    }
+}
+
+@media all and (max-width:321px) {
+    .row {
+        position: relative;
+        left: 30%;
+        width: 36%;
+        min-height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px -5px;
+    }
 }

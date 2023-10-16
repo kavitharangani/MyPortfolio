@@ -145,3 +145,16 @@ section>#assignment{
     background-color: black;
 }
 
+/*Media Query*/
+
+@media all and (max-width:426px) {
+    .container2 {
+        width: 86%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -40px;
+    }
+}
