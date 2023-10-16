@@ -1,16 +1,18 @@
 {
-    width: 100vw;
+    width: 100%;
     height: content-box;
     display: inline;
     position: relative;
     top: 5vw;
 }
 .row {
-    width: 100%;
+    position: relative;
+    left: 5%;
+    width: 74%;
     min-height: 50vh;
     display: flex;
     flex-wrap: wrap;
-    gap: 110px 120px;
+    gap: 30px 30px;
 }
 #skill>h1{
     color: #535353;
