@@ -107,7 +107,7 @@ footer {
 }
 
 
-/*Media Query*/
+/*/Media Query/*/
 
 @media all and (max-width:426px) {
     #footer-content span {
@@ -140,6 +140,6 @@ footer {
         margin-bottom: 16px;
         font-size: 8px;
         color: #7e7e7e;
-        line-height: 16px;
-    }
+        line-height:16px;
+        }
 }

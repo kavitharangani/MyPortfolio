@@ -147,14 +147,39 @@ section>#assignment{
 
 /*Media Query*/
 
-@media all and (max-width:426px) {
+@media all and (max-width:425px) {
     .container2 {
-        width: 86%;
+        width: 85%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         position: relative;
-        right: -40px;
+        right: -26px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .container2 {
+        width: 92%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -26px;
+    }
+}
+
+
+@media all and (max-width:375px) {
+    .container2 {
+        width: 88%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: -25px;
     }
 }

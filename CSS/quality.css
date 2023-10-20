@@ -131,7 +131,7 @@ section>#qualityBorder{
     left: 5px;
 }
 
-/*media Query*/
+/*/media Query/*/
 
 @media all and (max-width:426px) {
     .containerQty {
@@ -194,6 +194,6 @@ section>#qualityBorder{
         gap: 100px 50px;
         top: 80px;
         /* background: black; */
-        padding: 51px 65px 72px 33px;
-    }
+        padding: 51px 65px 72px33px;
+        }
 }
