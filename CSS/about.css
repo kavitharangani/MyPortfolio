@@ -179,7 +179,7 @@
         top: 11%;
     }
 }
-@media all and (max-width: 501px) {
+@media all and (max-width: 500px) {
     #main {
         width: 253px;
         height: 265px;

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assests/css/normalize.css">
     <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="CSS/assignment.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!--    link Style Sheet-->
     <link rel="stylesheet" href="CSS/prelaoder.css">
@@ -26,11 +27,10 @@
     <link rel="stylesheet" href="CSS/quality.css">
     <link rel="stylesheet" href="CSS/assignment.css">
     <link rel="stylesheet" href="CSS/gallery.css">
-    <link rel="stylesheet" href="CSS/contact.css">
+    <!--    <link rel="stylesheet" href="CSS/contact.css">-->
     <link rel="stylesheet" href="CSS/footer.css">
 
 </head>
-
 <div id="preloader">
     <div id="preloader-over-layer"></div>
     <img src="assests/img/pre%20loader/preloader.gif" alt="preloader" title="preloader" width="200" >
@@ -38,64 +38,26 @@
 
 
 <!--Navbar start-->
-<header id="header">
-    <nav id="web-nav">
-        <ul>
-            <a href="#about">Home</a>
-            <a href="#a">About</a>
-            <a href="#project">Project</a>
-            <a href="#quality">Quality</a>
-            <a href="#skill">Skill</a>
-            <a href="#As">Assignment</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-        </ul>
-    </nav>
+<header class="header">
+    <a href="" class="logo">Kavi_Portfolio</a>
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+        <i class='bx bx-menu-alt-right' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+    </label>
 
-    <div id="nav-icon-open" class="nav-icon">
-        <i class="fa-solid fa-bars"></i>
-    </div>
-    <div id="nav-icon-close" class="nav-icon">
-        <i class="fa-solid fa-xmark"></i>
-    </div>
-
-    <nav id="mob-nav">
-        <ul>
-            <a href="#about">Home</a>
-            <a href="#a">About</a>
-            <a href="#project">Project</a>
-            <a href="#quality">Quality</a>
-            <a href="#skill">Skill</a>
-            <a href="#As">Assignment</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
-        </ul>
+    <nav class="navbar">
+        <a href="#" style="--i:0;">Home</a>
+        <a href="#" style="--i:1;">About</a>
+        <a href="#" style="--i:2;">Project</a>
+        <a href="#" style="--i:3;">Quality</a>
+        <a href="#" style="--i:4;">Skills</a>
+        <a href="#" style="--i:5;">Assignments</a>
+        <a href="#" style="--i:6;">Gallery</a>
+        <a href="#" style="--i:7;">Contact</a>
     </nav>
 </header>
 <!--Navbar end-->
-
-
-<!--&lt;!&ndash;Home Start&ndash;&gt;-->
-<!--<section id="home" class="home_section">-->
-
-<!--    <div class="homeContainer">-->
-<!--&lt;!&ndash;        <h2><span>p</span>articales Di<span> st</span>ortion Effect</h2>&ndash;&gt;-->
-
-<!--        <vedio autoplay loop muted plays-inline class="background-clip">-->
-<!--            <source src="assests/video/smoke.mp4" type="video/mp4">-->
-<!--        </vedio>-->
-<!--        <div class="homeContent">-->
-<!--            <h1>Explore More</h1>-->
-<!--&lt;!&ndash;                <div class="container">&ndash;&gt;-->
-<!--&lt;!&ndash;                    <h3 class="t3">I'm <span class="auto-type"></span></h3>&ndash;&gt;-->
-<!--&lt;!&ndash;                </div>&ndash;&gt;-->
-
-<!--            <a href="">start learning</a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--&lt;!&ndash;Home End&ndash;&gt;-->
-
 
 <!--Home Start-->
 <section id="about" class="about" >
@@ -112,10 +74,10 @@
             </div>
 
             <article>
-<!--                <h1>About Me</h1>-->
+                <!--                <h1>About Me</h1>-->
                 <img  id="aboutImg" src="assests/img/mainphoto.jpeg">
-<!--                <h5>Kavindya Tharangani</h5>-->
-<!--                <p>Font-End Developer</p>-->
+                <!--                <h5>Kavindya Tharangani</h5>-->
+                <!--                <p>Font-End Developer</p>-->
                 <button class="hireMe btnHire">Hire Me</button>
             </article>
 
@@ -190,9 +152,9 @@
 
 <!--Qualification Start-->
 <section id="quality" class="quality">
-     <article>
-    <h1> Quality</h1>
-     </article>
+    <article>
+        <h1> Quality</h1>
+    </article>
     <div class="containerQty">
         <div class="card" style="--clr:#44BD32;" data-aos="fade-zoom-in"
              data-aos-easing="ease-in-back"
@@ -340,7 +302,7 @@
 
 <!--Assignment Start-->
 <section id="As">
-<!--    Add font style-->
+    <!--    Add font style-->
     <article>
         <h1>Work</h1>
     </article>
@@ -550,69 +512,69 @@
 
 <!--Footer Start-->
 <section class="footer" id="footer">
-<footer id="footer-section" class="bottom">
-    <div id="footer-to-content-wrapper">
-        <div id="footer-content">
-            <div id="find-me" class="top-dt">
-                <i class='bx bxs-location-plus'></i>
-                <div>
-                    <h4>Find me</h4>
-                    <span>Wilawa, Balalla.</span>
+    <footer id="footer-section" class="bottom">
+        <div id="footer-to-content-wrapper">
+            <div id="footer-content">
+                <div id="find-me" class="top-dt">
+                    <i class='bx bxs-location-plus'></i>
+                    <div>
+                        <h4>Find me</h4>
+                        <span>Wilawa, Balalla.</span>
+                    </div>
                 </div>
-            </div>
-            <div id="call-me" class="top-dt">
-                <i class='bx bxs-phone-call' ></i>
-                <div>
-                    <h4>Call me</h4>
-                    <span>+94766814435</span>
+                <div id="call-me" class="top-dt">
+                    <i class='bx bxs-phone-call' ></i>
+                    <div>
+                        <h4>Call me</h4>
+                        <span>+94766814435</span>
+                    </div>
                 </div>
-            </div>
-            <div id="mail-me" class="top-dt">
-                <i class='bx bxs-envelope-open' ></i>
-                <div>
-                    <h4>Mail me</h4>
-                    <span>kavitharangani08@gmail.com</span>
+                <div id="mail-me" class="top-dt">
+                    <i class='bx bxs-envelope-open' ></i>
+                    <div>
+                        <h4>Mail me</h4>
+                        <span>kavitharangani08@gmail.com</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div id="footer-bottom-wrapper">
-        <div id="footer-bottom-left">
-            <div id="footer-logo">
-<!--                <a href="index.html"><img src="Assets/img/syntaXage.logo1-1.png" alt="syntaxage"></a>-->
+        <div id="footer-bottom-wrapper">
+            <div id="footer-bottom-left">
+                <div id="footer-logo">
+                    <!--                <a href="index.html"><img src="Assets/img/syntaXage.logo1-1.png" alt="syntaxage"></a>-->
+                </div>
+                <div class="footer-text" id="fl-txt">
+                    <p>"Kavi, Software Engineering Undergrad, aspiring Full-Stack Developer. Building a versatile skill set for a dynamic tech future. Connect with me!"
+                    </p>
+                </div>
+                <div id="footer-socials">
+                    <span>Find me on</span>
+                </div>
+                <div class="social-media" id="fl-social-media">
+                    <a href=""  target="_blank" class="git"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="" target="_blank" class="instagram"><i class='bx bxl-instagram' ></i></a>
+                    <a href="" target="_blank" class="linkedIn"><i class='bx bxl-linkedin' ></i></a>
+                </div>
             </div>
-            <div class="footer-text" id="fl-txt">
-                <p>"Kavi, Software Engineering Undergrad, aspiring Full-Stack Developer. Building a versatile skill set for a dynamic tech future. Connect with me!"
-                </p>
-            </div>
-            <div id="footer-socials">
-                <span>Find me on</span>
-            </div>
-            <div class="social-media" id="fl-social-media">
-                <a href=""  target="_blank" class="git"><i class='bx bxl-whatsapp'></i></a>
-                <a href="" target="_blank" class="instagram"><i class='bx bxl-instagram' ></i></a>
-                <a href="" target="_blank" class="linkedIn"><i class='bx bxl-linkedin' ></i></a>
-            </div>
-        </div>
-        <div id="footer-bottom-center">
-            <div class="footer-center-heading">
-                <h3>Useful Links</h3>
-            </div>
-            <ul>
+            <div id="footer-bottom-center">
+                <div class="footer-center-heading">
+                    <h3>Useful Links</h3>
+                </div>
+                <ul>
 
-                <li><a href="#about">Home</a></li>
-                <li><a href="#a">About</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#quality">Quality</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#As">Assignment</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                    <li><a href="#about">Home</a></li>
+                    <li><a href="#a">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#quality">Quality</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#As">Assignment</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </section>
 <!--Footer End-->
 
