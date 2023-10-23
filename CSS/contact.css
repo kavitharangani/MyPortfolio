@@ -99,3 +99,19 @@ textarea:valid~label{
 /*        position: absolute;*/
 /*}*/
 /*}*/
+
+
+@media all and (max-width: 1024px) {
+    .contactStart {
+        width: 100%;
+        min-height: 103vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        position: absolute;
+    }
+}

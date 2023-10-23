@@ -85,7 +85,7 @@
 
 /*--------------------------------------------media Query-------------------------------------------*/
 
-@media all and (max-width:1025px) {
+@media all and (max-width:1024px) {
     #main {
         width: 292px;
         height: 349px;
@@ -113,7 +113,17 @@
         text-align: justify;
         position: absolute;
     }
-
+    #aboutImg {
+        top: 34vh;
+        margin: -121px auto auto;
+        display: block;
+        height: 448px;
+        width: 441px;
+        border-radius: 50%;
+        border: 3px solid rgb(190, 244, 247);
+        position: absolute;
+        left: 53px;
+    }
 }
 
 @media all and (max-width:769px) {
@@ -185,23 +195,23 @@
         height: 265px;
         position: absolute;
         left: 120px;
-        top: -28px;
+        top: 19px;
     }
     #AboutName {
         position: absolute;
         left: 11%;
-        top: 40%;
+        top: 44%;
     }
     #a>h3 {
         color: black;
         position: absolute;
         right: 17%;
-        top: 54%;
+        top: 57%;
         font-size: 20px;
     }
     #a>div>#Para {
-        margin-top: 113px;
-        left: 227px;
+        margin-top: 125px;
+        left: 210px;
         color: black;
         font-family: 'Imprima', sans-serif;
         font-size: 14px;
@@ -218,12 +228,26 @@
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         position: absolute;
-        top: 74%;
+        top: 86%;
         right: 15%;
         transition: 0.5s;
     }
 }
-@media all and (max-width:426px) {
+@media all and (max-width:425px) {
+    #menu-icon {
+        position: absolute;
+        top: 52px;
+        font-size: 45px;
+        left: 126px;
+    }
+    .t2 {
+        width: content-box;
+        position: absolute;
+        left: 11%;
+        top: 74vh;
+        font-size: 34px;
+        color: white;
+    }
     #main {
         width: 212px;
         height: 240px;
