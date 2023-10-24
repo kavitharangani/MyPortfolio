@@ -185,7 +185,7 @@ section>#qualityBorder{
 }
 
 
-@media all and (max-width:321px) {
+@media all and (max-width:375px) {
     .containerQty {
         display: flex;
         justify-content: center;
@@ -194,6 +194,32 @@ section>#qualityBorder{
         gap: 100px 50px;
         top: 80px;
         /* background: black; */
-        padding: 51px 65px 72px33px;
-        }
+        padding: 48px 21px 72px 71px;
+    }
+    .quality {
+        margin: 0;
+        /* display: block; */
+        width: 99%;
+        min-height: 100vh;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        top: 15px;
+        left: -21px;
+    }
+    .containerQty .card .content h2 {
+        font-size: 19px;
+        font-weight: 500;
+        color: darkred;
+        font-family: 'Poppins', sans-serif;
+    }
+    .containerQty .card .content p {
+        color: black;
+        font-size: 14px;
+        font-weight: 100;
+        font-family: 'Poppins', sans-serif;
+        text-transform: capitalize;
+        position: relative;
+        top: 6px;
+    }
 }

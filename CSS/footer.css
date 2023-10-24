@@ -143,3 +143,20 @@ footer {
         line-height:16px;
         }
 }
+
+
+
+/*media query*/
+
+@media all and (max-width:375px) {
+    #footer-content {
+        /* margin-top: 50px; */
+        display: block;
+        justify-content: space-around;
+        padding-bottom: 60px;
+    }
+    #footer-content span {
+        color: #757575;
+        font-size: 15px;
+    }
+}

@@ -196,11 +196,11 @@
     }
 }
 
-@media all and (max-width:376px) {
+@media all and (max-width:375px) {
     .row {
         position: relative;
-        left: 4%;
-        width: 89%;
+        left: 25%;
+        width: 50%;
         min-height: 50vh;
         display: flex;
         flex-wrap: wrap;

@@ -114,4 +114,16 @@ textarea:valid~label{
         justify-items: center;
         position: absolute;
     }
+    .contactStart {
+        width: 100%;
+        min-height: 92vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        position: absolute;
+    }
 }

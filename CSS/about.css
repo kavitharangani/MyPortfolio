@@ -86,35 +86,35 @@
 /*--------------------------------------------media Query-------------------------------------------*/
 
 @media all and (max-width:1024px) {
-    #main {
-        width: 292px;
-        height: 349px;
-        position: absolute;
-        left: 37px;
-        top: 126px;
-    }
     #AboutName {
         position: absolute;
-        left: 34%;
-        top: 11%;
+        left: 41%;
+        top: 13%;
+    }
+    #main {
+        width: 321px;
+        height: 365px;
+        position: absolute;
+        left: 37px;
+        top: 93px;
     }
     #a>h3 {
         color: black;
         position: absolute;
-        right: 27%;
+        right: 11%;
         top: 30%;
         font-size: 25px;
     }
     #a>div>#Para {
-        left: 47px;
+        left: 135px;
         color: black;
         font-family: 'Imprima', sans-serif;
-        font-size: 14px;
+        font-size: 18px;
         text-align: justify;
         position: absolute;
     }
     #aboutImg {
-        top: 34vh;
+        top: 39vh;
         margin: -121px auto auto;
         display: block;
         height: 448px;
@@ -126,13 +126,13 @@
     }
 }
 
-@media all and (max-width:769px) {
+@media all and (max-width:768px) {
     #main {
-        width: 253px;
-        height: 287px;
+        width: 271px;
+        height: 300px;
         position: absolute;
-        left: 37px;
-        top: 77px;
+        left: 29px;
+        top: 96px;
     }
     #a>h3 {
         color: black;
@@ -234,11 +234,19 @@
     }
 }
 @media all and (max-width:425px) {
+    #main {
+        width: 246px;
+        height: 260px;
+        position: absolute;
+        left: 71px;
+        top: 27px;
+    }
+
     #menu-icon {
         position: absolute;
         top: 52px;
         font-size: 45px;
-        left: 126px;
+        left: 112px;
     }
     .t2 {
         width: content-box;
@@ -249,30 +257,30 @@
         color: white;
     }
     #main {
-        width: 212px;
-        height: 240px;
+        width: 246px;
+        height: 260px;
         position: absolute;
-        left: 113px;
-        top: 7px;
+        left: 71px;
+        top: 27px;
     }
     #AboutName {
         position: absolute;
-        left: 6%;
-        top: 39%;
+        left: 5%;
+        top: 41%;
     }
     #a>h3 {
         color: black;
         position: absolute;
-        right: 13%;
-        top: 53%;
-        font-size: 23px;
+        right: 15%;
+        top: 51%;
+        font-size: 22px;
     }
     #a>div>#Para {
         margin-top: 111px;
-        left: 272px;
+        left: 260px;
         color: black;
         font-family: 'Imprima', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         text-align: justify;
         position: absolute;
     }
@@ -290,65 +298,96 @@
         right: 22%;
         transition: 0.5s;
     }
-}
-
-
-@media all and (max-width:426px) {
-    #main {
-        width: 212px;
-        height: 240px;
-        position: absolute;
-        left: 82px;
-        top: 7px;
-    }
     #a>div>#A_Letter {
         color: slateblue;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
-        font-size: 34px;
+        font-size: 65px;
         margin: 0;
     }
     #a>div>#A_Letter1 {
         color: slateblue;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
-        font-size: 34px;
+        font-size: 65px;
         margin: 0;
     }
     #a>div>span {
         color: black;
         font-family: 'Josefin Slab', serif;
-        font-size: 24px;
+        font-size: 33px;
     }
-    #AboutName {
+}
+
+@media all and (max-width:375px) {
+    #main {
+        width: 246px;
+        height: 260px;
         position: absolute;
-        left: 18%;
-        top: 44%;
+        left: 56px;
+        top: 27px;
     }
     #a>div>#Para {
         margin-top: 111px;
-        left: 324px;
+        left: 321px;
         color: black;
         font-family: 'Imprima', sans-serif;
-        font-size: 11px;
+        font-size: 14px;
         text-align: justify;
         position: absolute;
     }
     #a>h3 {
         color: black;
         position: absolute;
-        right: 13%;
+        right: 10%;
         top: 51%;
-        font-size: 15px;
+        font-size: 22px;
+    }
+    #a>div>#A_Letter {
+        color: slateblue;
+        font-family: 'Josefin Slab', serif;
+        display: inline-block;
+        font-size: 51px;
+        margin: 0;
+    }
+    #a>div>#A_Letter1 {
+        color: slateblue;
+        font-family: 'Josefin Slab', serif;
+        display: inline-block;
+        font-size: 51px;
+        margin: 0;
+    }
+    #a>div>span {
+        color: black;
+        font-family: 'Josefin Slab', serif;
+        font-size: 29px;
+    }
+    #AboutName {
+        position: absolute;
+        left: 10%;
+        top: 43%;
     }
 }
-
-@media all and (max-width:321px) {
+@media all and (max-width:320px) {
     #main {
-        width: 212px;
-        height: 240px;
+        width: 246px;
+        height: 260px;
         position: absolute;
-        left: 53px;
-        top:7px;
-        }
+        left: 28px;
+        top: 27px;
+    }
+    #AboutName {
+        position: absolute;
+        left: 1%;
+        top: 43%;
+    }
+    #a>div>#Para {
+        margin-top: 103px;
+        left: 360px;
+        color: black;
+        font-family: 'Imprima', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        position: absolute;
+    }
 }
