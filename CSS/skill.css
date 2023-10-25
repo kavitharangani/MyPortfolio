@@ -183,12 +183,23 @@
 
 
 /*/Media Query/*/
-
-@media all and (max-width:426px) {
+@media all and (max-width:500px) {
     .row {
         position: relative;
-        left: 10%;
-        width: 85%;
+        left: 9%;
+        width: 78%;
+        min-height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 30px;
+    }
+}
+
+@media all and (max-width:425px) {
+    .row {
+        position: relative;
+        left: 31%;
+        width: 41%;
         min-height: 50vh;
         display: flex;
         flex-wrap: wrap;

@@ -5,14 +5,14 @@
 }
 
 #a>div>#A_Letter{
-    color: slateblue;
+    color: #1d0b8d;
     font-family: 'Josefin Slab', serif;
     display: inline-block;
     font-size: 110px;
     margin: 0;
 }
 #a>div>#A_Letter1{
-    color: slateblue;
+    color: #1d0b8d;
     font-family: 'Josefin Slab', serif;
     display: inline-block;
     font-size: 110px;
@@ -57,8 +57,7 @@
 
 #btnDownload{
     color: white;
-    background-color: #693d69;
-    border:purple;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
     border-radius: 30px;
     width: 150px;
     height: 40px;
@@ -71,8 +70,10 @@
 }
 
 #a>a>button:hover{
-    color: white;
-    background-color: black;
+    color: #000000;
+    background: linear-gradient(90deg, #f5ce62, #e85a19);
+    cursor: pointer;
+
 }
 
 #main {
@@ -128,25 +129,26 @@
 
 @media all and (max-width:768px) {
     #main {
-        width: 271px;
-        height: 300px;
+        border-radius: 61px;
+        width: 304px;
+        height: 363px;
         position: absolute;
-        left: 29px;
-        top: 96px;
+        left: 22px;
+        top: 89px;
     }
     #a>h3 {
         color: black;
         position: absolute;
-        right: 17%;
-        top: 26%;
-        font-size: 20px;
+        right: 10%;
+        top: 25%;
+        font-size: 24px;
     }
     #a>div>#Para {
-        margin-top: -41px;
-        left: 253px;
+        margin-top: -34px;
+        left: 281px;
         color: black;
         font-family: 'Imprima', sans-serif;
-        font-size: 14px;
+        font-size: 20px;
         text-align: justify;
         position: absolute;
     }
@@ -160,7 +162,7 @@
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         position: absolute;
-        top: 57%;
+        top: 83%;
         right: 15%;
         transition: 0.5s;
     }
@@ -170,14 +172,14 @@
         font-size: 37px;
     }
     #a>div>#A_Letter {
-        color: slateblue;
+        color: #1d0b8d;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
         font-size: 81px;
         margin: 0;
     }
     #a>div>#A_Letter1 {
-        color: slateblue;
+        color: #1d0b8d;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
         font-size: 81px;
@@ -194,12 +196,12 @@
         width: 253px;
         height: 265px;
         position: absolute;
-        left: 120px;
+        left: 86px;
         top: 19px;
     }
     #AboutName {
         position: absolute;
-        left: 11%;
+        left: 4%;
         top: 44%;
     }
     #a>h3 {
@@ -211,10 +213,10 @@
     }
     #a>div>#Para {
         margin-top: 125px;
-        left: 210px;
+        left: 254px;
         color: black;
         font-family: 'Imprima', sans-serif;
-        font-size: 14px;
+        font-size: 17px;
         text-align: justify;
         position: absolute;
     }
@@ -228,7 +230,7 @@
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         position: absolute;
-        top: 86%;
+        top: 93%;
         right: 15%;
         transition: 0.5s;
     }
@@ -266,18 +268,18 @@
     #AboutName {
         position: absolute;
         left: 5%;
-        top: 41%;
+        top: 47%;
     }
     #a>h3 {
         color: black;
         position: absolute;
-        right: 15%;
-        top: 51%;
+        right: 14%;
+        top: 57%;
         font-size: 22px;
     }
     #a>div>#Para {
-        margin-top: 111px;
-        left: 260px;
+        margin-top: 135px;
+        left: 313px;
         color: black;
         font-family: 'Imprima', sans-serif;
         font-size: 16px;
@@ -294,19 +296,19 @@
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         position: absolute;
-        top: 81%;
-        right: 22%;
+        top: 95%;
+        right: 11%;
         transition: 0.5s;
     }
     #a>div>#A_Letter {
-        color: slateblue;
+        color: #1d0b8d;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
         font-size: 65px;
         margin: 0;
     }
     #a>div>#A_Letter1 {
-        color: slateblue;
+        color: #1d0b8d;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
         font-size: 65px;
@@ -344,14 +346,14 @@
         font-size: 22px;
     }
     #a>div>#A_Letter {
-        color: slateblue;
+        color: #1d0b8d;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
         font-size: 51px;
         margin: 0;
     }
     #a>div>#A_Letter1 {
-        color: slateblue;
+        color: #1d0b8d;
         font-family: 'Josefin Slab', serif;
         display: inline-block;
         font-size: 51px;
@@ -373,17 +375,17 @@
         width: 246px;
         height: 260px;
         position: absolute;
-        left: 28px;
+        left: 40px;
         top: 27px;
     }
     #AboutName {
         position: absolute;
-        left: 1%;
-        top: 43%;
+        left: 5%;
+        top: 46%;
     }
     #a>div>#Para {
-        margin-top: 103px;
-        left: 360px;
+        margin-top: 120px;
+        left: 350px;
         color: black;
         font-family: 'Imprima', sans-serif;
         font-size: 14px;

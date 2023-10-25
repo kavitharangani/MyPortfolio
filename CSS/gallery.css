@@ -17,18 +17,20 @@
 .gallery .controls .buttons{
     height: 40px;
     width: 140px;
-    background: #fff;
-    color: #666;
+    background: linear-gradient(90deg, #3f1c4f, #ff72c0);
+    color: #FFFFFF;
     font-size: 20px;
     line-height: 20px;
     cursor: pointer;
     margin: 20px;
     box-shadow: 0 3px 5px rgba(0,0,0,.3);
     text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
 }
 
-.gallery .controls .buttons :hover{
-    background: coral;
+.gallery .controls .buttons:hover{
+    background: linear-gradient(90deg, #3f1c4f, coral);
     color: #fff;
 
 }

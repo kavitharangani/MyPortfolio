@@ -76,7 +76,7 @@ section>#assignment{
 .box .assButton{
     width: 140px;
     height: 40px;
-    background-color:darkmagenta;
+    background: linear-gradient(90deg, #755bea, #ff72c0);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     color: white;
     border: none;
@@ -93,8 +93,7 @@ section>#assignment{
 }
 
 .box button:hover{
-    letter-spacing: 1px;
-    width: 145px;
+    color: black;
 }
 
 .box::before{

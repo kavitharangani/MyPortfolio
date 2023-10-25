@@ -66,6 +66,9 @@ label{
     width: 100%;
     cursor: pointer;
 }
+.submit:hover{
+    background: #2ecc71;
+}
 input:focus~label,
 input:valid~label,
 textarea:focus~label,
@@ -104,7 +107,7 @@ textarea:valid~label{
 @media all and (max-width: 1024px) {
     .contactStart {
         width: 100%;
-        min-height: 103vh;
+        min-height: 92vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
         background-position: center;
         /* background-repeat: no-repeat; */
@@ -114,9 +117,11 @@ textarea:valid~label{
         justify-items: center;
         position: absolute;
     }
+}
+@media all and (max-width: 768px) {
     .contactStart {
         width: 100%;
-        min-height: 92vh;
+        min-height: 77vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
         background-position: center;
         /* background-repeat: no-repeat; */

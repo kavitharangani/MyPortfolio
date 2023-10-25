@@ -160,3 +160,39 @@ footer {
         font-size: 15px;
     }
 }
+
+@media all and (max-width:768px) {
+    .footer-text p {
+        margin-bottom: 23px;
+        font-size: 13px;
+        color: #7e7e7e;
+        line-height: 20px;
+    }
+}
+
+@media all and (max-width:500px) {
+    #footer-content {
+        margin-top: 24px;
+        display: block;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+    .contactStart {
+        width: 100%;
+        min-height: 103vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        position: absolute;
+    }
+    .footer-text p {
+        margin-bottom: 10px;
+        font-size: 9px;
+        color: #7e7e7e;
+        line-height: 10px;
+    }
+}

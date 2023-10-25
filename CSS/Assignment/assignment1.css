@@ -132,4 +132,25 @@
     z-index: 3;
 }
 
-
+@media all and (max-width:768px) {
+    #cover {
+        width: 309px;
+        height: 566px;
+    }
+    .flip-book {
+        width: 309px;
+        height: 563px;
+        position: relative;
+    }
+    .backAs {
+        width: 77%;
+        height: 18%;
+        border-radius: 49%;
+        font-size: 270%;
+        left: 42%;
+        background: purple;
+        position: absolute;
+        color: black;
+        top: 113%;
+    }
+}
