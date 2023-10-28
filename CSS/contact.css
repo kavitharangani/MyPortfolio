@@ -16,7 +16,7 @@
 
 .contactStart{
     width: 100%;
-    min-height: 100vh;
+    min-height: 62vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url("../assests/img/project/assignment.jpg");
     background-position: center;
     /*background-repeat: no-repeat;*/
@@ -107,7 +107,7 @@ textarea:valid~label{
 @media all and (max-width: 1024px) {
     .contactStart {
         width: 100%;
-        min-height: 92vh;
+        min-height: 81vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
         background-position: center;
         /* background-repeat: no-repeat; */
@@ -121,7 +121,7 @@ textarea:valid~label{
 @media all and (max-width: 768px) {
     .contactStart {
         width: 100%;
-        min-height: 77vh;
+        min-height: 102vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.70), #3551b5), url(../assests/img/project/assignment.jpg);
         background-position: center;
         /* background-repeat: no-repeat; */
