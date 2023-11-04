@@ -34,14 +34,14 @@ section>#assignment{
     margin-left: 50px;
 }
 
-.container2{
+.container2 {
     width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: -40px;
+    right: -19px;
 }
 
 .box{

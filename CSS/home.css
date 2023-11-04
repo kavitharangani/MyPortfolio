@@ -205,9 +205,9 @@ article>p{
     .t2 {
         width: content-box;
         position: absolute;
-        left: 66vh;
-        top: 37vh;
-        font-size: 34px;
+        left: 48vh;
+        top: 33vh;
+        font-size: 50px;
         color: white;
     }
     .t3 {
@@ -215,7 +215,7 @@ article>p{
         width: content-box;
         position: absolute;
         left: 62%;
-        top: 50vh;
+        top: 57vh;
         font-size: 29px;
     }
 }
