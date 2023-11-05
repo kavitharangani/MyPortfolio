@@ -32,8 +32,6 @@ section>#galleryBorder{
 
 .containerQty .card:hover{
     height: 400px;
-    background-image: linear-gradient(120deg, mediumpurple, white);;
-
 }
 
 .containerQty .card .imgBox{
