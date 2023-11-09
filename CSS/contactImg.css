@@ -1,0 +1,175 @@
+.main{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    display: inline-block;
+    left: 5px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+
+@media (max-width: 1050px) {
+    .icon{
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background: white;
+        margin: 5px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        font-family: sans-serif;
+        overflow: hidden;
+        box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+        transition: all .3s ease-out;
+    }
+}
+
+.icon:hover{
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+@media (max-width: 1050px) {
+    .icon:hover{
+        width: 120px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+}
+.main>a{
+    text-decoration: none;
+}
+
+.icon:hover i{
+    color: white;
+}
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+
+.icon .fa-linkedin{
+    color: #0077B5;
+}
+.linkdin:hover{
+    background: #0077B5;
+}
+
+.icon .fa-youtube{
+    color: #FE0000;
+}
+.youtube:hover{
+    background: #FE0000;
+}
+
+.icon .fa-github{
+    color: black;
+}
+.github:hover{
+    background: black;
+}
+
+.icon .fa-whatsapp{
+    color: #44BD32;
+}
+.whatsapp:hover{
+    background: #44BD32;
+}
+
+.icon .fa-stack-overflow{
+    color: #f58023;
+}
+.stack-overflow:hover{
+    background: #f58023;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    .main{
+        flex-direction: column;
+    }
+}
+
+a>button{
+    background-color: #44BD32;
+    border: #44BD32;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    right: -650px;
+    top: 470px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+@media (max-width: 1050px) {
+    a>button{
+        background-color: #44BD32;
+        border: #44BD32;
+        color: white;
+        border-radius: 20px;
+        width: 120px;
+        height: 35px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+        right: -750px;
+        top: 450px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+}
+
+a>button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 768px) {
+.main{
+    position: absolute;
+    top: 244px;
+    display: inline-block;
+    left: 5px;
+}
+}
+@media (max-width: 500px) {
+    .main{
+        position: absolute;
+        top: 167px;
+        display: inline-block;
+        left: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .main{
+        position: absolute;
+        top: 131px;
+        display: inline-block;
+        left: 5px;
+    }
+}
