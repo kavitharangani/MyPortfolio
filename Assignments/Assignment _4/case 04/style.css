@@ -1,0 +1,69 @@
+div{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border:5px solid red;
+    position: absolute;
+    border-radius: 100%;
+
+    /*animation-iteration-count: inherit;*/
+    /*animation-name: my_animations;*/
+    /*animation-duration:2s;*/
+
+    animation: my_animations 2s infinite;
+
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+
+}
+
+
+@keyframes my_animations{
+
+    from{
+        width: 20px;
+    }
+
+    to{
+        width: 200px;
+        opacity: 0;
+    }
+
+    /*0%{*/
+    /*    border:5px solid red;*/
+    /*    width: 75px;*/
+    /*    height:75px;*/
+    /*}*/
+
+    /*25%{*/
+    /*    border:5px solid deeppink;*/
+    /*    width: 100px;*/
+    /*    height: 100px;*/
+
+    /*}*/
+
+    /*50%{*/
+    /*    border:5px solid plum;*/
+    /*    width: 125px;*/
+    /*    height: 125px;*/
+
+    /*}*/
+
+    /*75%{*/
+    /*    border:5px solid pink;*/
+    /*    width: 150px;*/
+    /*    height: 150px;*/
+
+    /*}*/
+
+    /*100%{*/
+    /*    border:5px solid white;*/
+    /*    width: 175px;*/
+    /*    height: 175px;*/
+
+    /*}*/
+}
+

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02 Case CSS</title>
+    <link rel="stylesheet" href="assest/fontsizecss/css/all.min.css">
+    <link rel="stylesheet" href="../01_Case/assest/css/normalize.css">
+
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        header{
+            width: 100vw;
+            height: 50px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            position: relative;
+        }
+        header>nav{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        header>img{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            left: 5px;
+
+        }
+        header>nav>ol{
+            list-style-type: none;
+        }
+        header>nav>ol>li{
+            display: inline;
+            margin: 2px 20px;
+
+        }
+        main{
+            position: relative;
+        }
+
+        #sidebox{
+            background: purple;
+            width: 20%;
+            height: 100%;
+            position: absolute;
+        }
+        #sidebox>nav>ol{
+            list-style-type: none;
+        }
+
+        #content{
+            width: 80%;
+            position: relative;
+            left: 20%;
+        }
+        #content>p{
+            position: relative;
+            margin-bottom: 0;
+            padding: 0 12px;
+        }
+        header{
+            overflow: hidden;
+        }
+
+
+        footer{
+            width: 100vw;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+            position: relative;
+
+        }
+        footer>h4{
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            display: block;
+            width: fit-content;
+            height: 10px;
+
+        }
+
+        main>section>div{
+            width: calc(100% / 3);
+            aspect-ratio: 1/1;
+            border: 1px solid black;
+            display: inline-block;
+            margin-right: -6px;
+            position: relative;
+        }
+
+        main>section>div>img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            position: relative;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <img src="../02_Case/assest/img/ijse.jpg" alt="" width="100" >
+    <nav>
+        <ol>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ol>
+    </nav>
+</header>
+<main>
+    <div id="sidebox">
+        <nav>
+            <ol>
+                <li>Home</li>
+                <br>
+                <li>Service</li>
+                <br>
+                <li>Contact</li>
+                <br>
+                <li>About Us</li>
+            </ol>
+        </nav>
+    </div>
+
+    <section id="content">
+        <div id="box1">
+            <img src="../02_Case/assest/img/BiardAAAT.gif" alt="animation"  >
+        </div>
+        <div id="box2">
+            <img src="../02_Case/assest/img/BiardAAAT.gif" alt="animation"  >
+        </div>
+        <div id="box3">
+            <img src="../02_Case/assest/img/BiardAAAT.gif" alt="animation"  >
+        </div>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci asperiores at commodi, consequuntur, cumque enim fuga ipsam laboriosam minus molestiae nam neque nesciunt omnis reiciendis repellendus, sunt! Nam, sint.
+        </p>
+    </section>
+</main>
+
+
+
+<footer>
+    <h4>Direct By IJSE Student</h4>
+</footer>
+
+
+
+<script src="assest/fontsizecss/js/all.min.js"></script>
+</body>
+</html>

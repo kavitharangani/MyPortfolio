@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,POS System,kavindya">
+    <meta name="description" content="My personal idea">
+    <meta name="revised" content="Order page, 12/09/2023">
+    <meta name="author" content="Kavindya Tharangani">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Order Form</title>
+    <link href="../assets/css/CSS/order.css" rel="stylesheet">
+    <link href="../assets/css/CSS/header%20other.css" rel="stylesheet">
+    <link href="../assets/css/CSS/header.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="../assets/img/Home%20icon.png" alt="">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <img src="../assets/img/customer%20icon.png" alt="" class="cus">
+                    <a class="nav-link active" aria-current="page" href="Customer_Section.html">Customer</a>
+
+                    <img src="../assets/img/item%20icon.png" alt="" class="item">
+                    <a class="nav-link active" aria-current="page" href="Item_Section.html">Item</a>
+
+                    <img src="../assets/img/order%20icon.png" alt="" class="order">
+                    <a class="nav-link active" aria-current="page" href="Order_Section.html">Order</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<br>
+<section class="content-section" id="manage_order">
+    <h1 class="title">
+        Place Order <i class='bx bx-cookie'></i>
+    </h1>
+    <hr style="color: white; border: 1px solid black; width: 100%">
+    <section id="section">
+    <div class="container" id="order_container">
+        <div id="orders_left_container">
+            <h1 >New Order</h1>
+            <hr style="color: black; border: 1px solid black; width: 100% ">
+            <br>
+            <form>
+                <div class="col-md-4">
+                    <label for="order_Id" class="form-label">Order ID</label>
+                    <input type="text" class="form-control" id="order_Id" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="customer_Id" class="form-label">Customer ID</label>
+                    <input type="text" class="form-control" id="customer_Id" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="item_code" class="form-label">Item Code</label>
+                    <input type="text" class="form-control" id="item_code" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <br><br>
+                <div class="btn">
+                    <button type="submit" class="btn btn-success" id="save">Submit</button>
+                    <button type="button" class="btn btn-primary" id="update">Update</button>
+                    <button type="button" class="btn btn-danger" id="remove">Delete</button>
+                    <button type="reset" class="btn btn-warning" id="reset">Clear</button>
+                </div>
+                <img src="../assets/img/orders.jpg" alt="" width="50px" >
+            </form>
+        </div>
+        <div id="orders_right_container">
+            <h5>Date : <span id="date">2023-07-01</span></h5>
+            <br><br>
+            <div id="right_container_top">
+                <form>
+                    <div class="col-md-4">
+                        <label for="item_description" class="form-label">Item Description</label>
+                        <input type="text" class="form-control" id="item_description" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="item_name" class="form-label">Item Name</label>
+                        <input type="text" class="form-control" id="item_name" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="item_price" class="form-label">Unit Price</label>
+                        <input type="text" class="form-control" id="item_price" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </form>
+                <div id="addcart">
+                    <div class="form-group">
+                        <div style="width: 30%;">
+                            <input class="form-control" id="qty"
+                                   placeholder="enter qty" required type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right_container_bottom">
+                <table class="table table-hover" id="cart">
+                    <thead>
+                    <br>
+                    <tr>
+                        <th scope="col"> Order ID</th>
+                        <th scope="col">Customer ID</th>
+                        <th scope="col">Item Code</th>
+                        <th scope="col">Item Description</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">Unit Price</th>
+                        <th scope="col">Qty</th>
+                    </tr>
+                    </thead>
+                    <tbody id="cart_body">
+                    <tr>
+                        <td scope="row">O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>soap</td>
+                        <td>velvat</td>
+                        <td>90</td>
+                        <td>12</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <div class="btns">
+                <h2 id="total">Total:Rs&nbsp;<span id="total_price">0.00</span></h2>
+                <button class="btn btn-primary" id="btn_place_order">Place Order</button>
+            </div>
+            <br><br>
+        </div>
+    </div>
+</section>
+</section>
+
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    $("#submit").on('click', ()=>{
+        let orderId =$('#order_Id').val();
+        let customerId =$('#customer_Id').val();
+        let itemCode=$('#item_Code').val();
+        let itemDescription=$('#item_description').val();
+        let itemName=$('#item_Name').val();
+        let unitPrice=$('#item_Price').val();
+        let qty=$('#qty').val();
+
+        console.log('Order ID: ' + orderId);
+        console.log('Customer ID: ' + customerId);
+        console.log('itemCode: ' + itemCode);
+        console.log('itemDescription: ' + itemDescription);
+        console.log('itemName: ' + itemName);
+        console.log('unitPrice: ' + unitPrice);
+        console.log('qty: ' + qty);
+
+
+        var newRow = $("<tr>");
+
+        newRow.append("<td>" + orderId + "</td>");
+        newRow.append("<td>" + customerId + "</td>");
+        newRow.append("<td>" + itemCode + "</td>");
+        newRow.append("<td>" + itemDescription + "</td>");
+        newRow.append("<td>" + itemName + "</td>");
+        newRow.append("<td>" + unitPrice + "</td>");
+        newRow.append("<td>" + qty + "</td>");
+
+        $("#cart_body").append(newRow);
+
+    })
+
+    // update
+    $("#update").on('click', ()=>{
+        let customerId =$('#customer_Id').val();
+        let customerName=$('#customer_Name').val();
+        let customerAddress=$('#customer_Address').val();
+        let customerContact=$('#customer_Contact').val();
+
+        let record = `<td class="Customer ID:">${customerId}</td><td class="Customer Name:">${customerName}</td> <td class="Customer Address:">${customerAddress}</td><td class="Customer Contact:">${customerContact}</td>`;
+
+        $("tbody>tr").eq(row_index).html(record)
+    })
+
+
+    //Delete
+    $("#remove").on('click', () => {
+
+        $("tbody>tr").eq(row_index).remove();
+    })
+
+
+    //reset
+    $("#reset").on('click', () => {
+        // my code
+        $('#customer_Id').val('');
+        $('#customer_Name').val('');
+        $('#customer_Address').val('');
+        $('#customer_Contact').val('');
+
+    })
+
+    //click
+    $("tbody").on("click", "tr", function () {
+        row_index =$(this).index();
+
+        let orderId = $(this).find("td:eq(0)").text();
+        let customerId = $(this).find("td:eq(1)").text();
+        let itemCode = $(this).find("td:eq(2)").text();
+        let itemDescription = $(this).find("td:eq(3)").text();
+        let itemName = $(this).find("td:eq(4)").text();
+        let unitPrice = $(this).find("td:eq(5)").text();
+        let qty = $(this).find("td:eq(6)").text();
+
+        $('#order_Id').val(orderId);
+        $('#customer_Id').val(customerId);
+        $('#item_Code').val(itemCode);
+        $('#item_description').val(itemDescription);
+        $('#item_Name').val(itemName);
+        $('#item_Price').val(unitPrice);
+        $('#qty').val(qty);
+    });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03 Case CSS</title>
+    <link rel="stylesheet" href="assest/fontsizecss/css/all.min.css">
+    <link rel="stylesheet" href="../01_Case/assest/css/normalize.css">
+
+    <style>
+        #frame{
+            width: 200px;
+            aspect-ratio: 1/1;
+            border: 10px solid brown;
+            border-radius: 100% ;
+            z-index: 9999;
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+        #frame>div{
+            width: 180px;
+            aspect-ratio: 1/1;
+            border: 10px solid red;
+            border-radius: 100% ;
+            z-index: 9999;
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+
+        }
+
+        section{
+            position: relative;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+
+
+        section>div{
+            width: 180px;
+            aspect-ratio: 1/1;
+            background-color: lime;
+            border-radius: 100%;
+            position: relative;
+
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            margin-top: 263px;
+            margin-bottom: 263px;
+
+        }
+
+        section>div:nth-child(2){
+            background: deeppink;
+        }
+
+        section>div:nth-child(3){
+            background: yellow;
+        }
+        section>div:nth-child(4){
+            background: green;
+        }
+
+        section>div>span{
+            position: absolute;
+            color: black;
+            width: fit-content;
+            height: fit-content;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<div id="frame">
+    <div></div>
+</div>
+
+<section>
+    <div>
+        <span>Hello</span>
+    </div>
+    <div>
+        <span>Software Engineering</span>
+    </div>
+    <div>
+        <span>IJSE</span>
+    </div>
+    <div>
+        <span>GDSE 65</span>
+    </div>
+</section>
+
+
+
+
+</body>
+</html>

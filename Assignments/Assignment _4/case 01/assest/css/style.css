@@ -1,0 +1,47 @@
+section{
+    /*background-color: lightskyblue;*/
+    position: absolute;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section>div{
+    background-color: purple;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 8px 8px 0px;
+    width: 250px;
+    height: 80px;
+    color: black;
+    position: relative;
+    margin: 10px 0;
+    right: 200px;
+    transition-duration: 2s;
+    transition-property: right;
+    cursor: pointer;
+
+}
+
+section>div>h3{
+    height: max-content;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+    margin: auto;
+}
+
+section>div>div{
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+}
+
+section>div:hover{
+    right: 0;
+
+}

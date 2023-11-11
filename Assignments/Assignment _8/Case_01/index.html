@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 08</title>
+    </head>
+
+    <style>
+        #running_boy{
+            width: 50px;
+            position: relative;
+            display: inline;
+
+        }
+        #house{
+            position: absolute;
+            top: 3px;
+            left: 1250px;
+        }
+
+
+    </style>
+<body>
+
+<main>
+    <section id="running_boy">
+        <label class="l">A</label>
+        <img src="assests/img/running-5558_256.gif" alt="img">
+        <label class="l" >B</label>
+        <img src="assests/img/running-5558_256.gif" alt="img">
+        <label class="l">C</label>
+        <img src="assests/img/running-5558_256.gif" alt="img">
+        <label  class="l">D</label>
+        <img src="assests/img/running-5558_256.gif" alt="img">
+        <label  class="l">E</label>
+        <img src="assests/img/running-5558_256.gif" alt="img">
+        <label  class="l">F</label>
+        <img src="assests/img/running-5558_256.gif" alt="img">
+    </section>
+    <section id="house">
+        <img src="assests/img/winter-1613_256.gif" alt="house">
+    </section>
+
+</main>
+
+<script src="assests/lib/jquery.min.js"></script>
+
+<script>
+    let letters = [$(".l").eq(0).text(),$(".l").eq(1).text(),$(".l").eq(2).text(),$(".l").eq(3).text(),$(".l").eq(4).text(),$(".l").eq(5).text()];
+    // console.log(letters.toString())
+    // function displayLetter() {
+    //     let pop = letters.pop();
+    //     $(".l").eq(0).html(pop);
+    //     letters.unshift(pop);
+    //     console.log(letters.toString())
+    //     let pop1 = letters.pop();
+    //     $(".l").eq(1).html(pop1);
+    //     letters.unshift(pop1);
+    //     console.log(letters.toString())
+    //     let pop2 = letters.pop();
+    //     $(".l").eq(2).html(pop2);
+    //     letters.unshift(pop2);
+    //     console.log(letters.toString())
+    //     let pop3 = letters.pop();
+    //     $(".l").eq(3).html(pop3);
+    //     letters.unshift(pop3);
+    //     console.log(letters.toString())
+    //     let pop4 = letters.pop();
+    //     $(".l").eq(4).html(pop4);
+    //     letters.unshift(pop4);
+    //     console.log(letters.toString())
+    //     let pop5 = letters.pop();
+    //     $(".l").eq(5).html(pop5);
+    //     letters.unshift(pop5);
+    //     console.log(letters.toString())
+    // }
+    //
+    // setInterval(displayLetter, 2000);
+    setInterval(function(){
+        for(let i = 0; i < 6; i++){
+            $(".l").eq(i).html(letters[i]);
+        }
+        letters.unshift(letters[5]);
+        letters.pop();
+
+    }, 1000);
+</script>
+
+</body>
+</html>

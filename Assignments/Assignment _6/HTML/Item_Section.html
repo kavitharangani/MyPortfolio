@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,POS System,kavindya">
+    <meta name="description" content="My personal idea">
+    <meta name="revised" content="Customer page, 12/09/2023">
+    <meta name="author" content="Kavindya Tharangani">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Customer Form</title>
+    <link href="../assets/css/CSS/item.css" rel="stylesheet">
+    <link href="../assets/css/CSS/header%20other.css" rel="stylesheet">
+    <link href="../assets/css/CSS/header.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="../assets/img/Home%20icon.png" alt="">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <img src="../assets/img/customer%20icon.png" alt="" class="cus">
+                    <a class="nav-link active" aria-current="page" href="Customer_Section.html">Customer</a>
+
+                    <img src="../assets/img/item%20icon.png" alt="" class="item">
+                    <a class="nav-link active" aria-current="page" href="Item_Section.html">Item</a>
+
+                    <img src="../assets/img/order%20icon.png" alt="" class="order">
+                    <a class="nav-link active" aria-current="page" href="Order_Section.html">Order</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<br>
+<section class="content-section" id="manage_item">
+    <h1 class="main">
+        Customer Manage <i class='bx bx-user-plus'></i>
+    </h1>
+    <hr style="color: black; border: 1px solid black; width: 100%">
+
+    <div class="row">
+        <h1 class="title" style="font-size: 30px ; font-style: italic">
+            Add Form Item <i class='bx bx-user-plus'></i>
+        </h1>
+        <hr style="color: black; border: 1px solid black; width: 100% ">
+
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="data">
+            <br>
+            <div class="col-md-4">
+                <label for="item_Code" class="form-label" >Item Code</label>
+                <input type="text" class="form-control" id="item_Code" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="item_Name" class="form-label">Item Name</label>
+                <input type="text" class="form-control" id="item_Name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="item_Price" class="form-label">Item Price</label>
+                <input type="text" class="form-control" id="item_Price" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="qty" class="form-label">Item Qty On Hand</label>
+                <input type="text" class="form-control" id="qty" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="mt-5">
+                <button type="submit" class="btn btn-success" id="submit">Submit</button>
+                <button type="button" class="btn btn-primary" id="update">Update</button>
+                <button type="button" class="btn btn-danger" id="remove">Delete</button>
+                <button type="button" class="btn btn-warning" id="reset">Reset</button>
+            </div>
+
+            <br><br>
+        </div>
+        <div class="col col-xl-6 col-lg-6  col-md-6 col-sm-12 col-12" id="tabel">
+            <table class="table mt-5" border="5px">
+                <br><br>
+                <div class="search_section">
+                    <button class="btn btn-primary clear" id="search">search</button>
+                    <br>
+                    <input class="form-control" id="search_item" name='search' placeholder="I001"
+                           required type="text">
+                    <br>
+                </div>
+                <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">price</th>
+                    <th scope="col">qty</th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider" id="student_table_body">
+                <tr>
+                    <td scope="row">I001</td>
+                    <td>Soap</td>
+                    <td>580</td>
+                    <td>2</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/lib/jquery.min.js"></script>
+
+<script>
+
+    //submit
+    $("#submit").on('click', ()=>{
+        let itemCode =$('#item_Code').val();
+        let itemName=$('#item_Name').val();
+        let itemPrice=$('#item_Price').val();
+        let qty=$('#qty').val();
+
+        console.log('Item ID: ' + itemCode);
+        console.log('Item Name: ' + itemName);
+        console.log('Item price: ' + itemPrice);
+        console.log('Item qty: ' + qty);
+
+
+        var newRow = $("<tr>");
+
+        newRow.append("<td>" + itemCode + "</td>");
+        newRow.append("<td>" + itemName + "</td>");
+        newRow.append("<td>" + itemPrice + "</td>");
+        newRow.append("<td>" + qty + "</td>");
+
+        $("#student_table_body").append(newRow);
+
+    })
+
+    // update
+    $("#update").on('click', ()=>{
+        let itemCode =$('#item_Code').val();
+        let itemName=$('#item_Name').val();
+        let itemPrice=$('#item_Price').val();
+        let qty=$('#qty').val();
+
+        let record = `<td class="Item Code:">${itemCode}</td><td class="Item Name:">${itemName}</td> <td class="Item Price:">${itemPrice}</td><td class="Qty On Hand:">${qty}</td>`;
+
+        $("tbody>tr").eq(row_index).html(record)
+    })
+
+
+    //Delete
+    $("#remove").on('click', () => {
+
+        $("tbody>tr").eq(row_index).remove();
+    })
+
+
+    //reset
+    $("#reset").on('click', () => {
+        // my code
+        $('#item_Code').val('');
+        $('#item_Name').val('');
+        $('#item_Price').val('');
+        $('#qty').val('');
+
+    })
+
+
+    //search
+    $("#search").on('click', ()=>{
+
+    })
+
+
+    //click
+    $("tbody").on("click", "tr", function () {
+        row_index =$(this).index();
+
+        let itemCode = $(this).find("td:eq(0)").text();
+        let itemName = $(this).find("td:eq(1)").text();
+        let itemPrice = $(this).find("td:eq(2)").text();
+        let qty = $(this).find("td:eq(3)").text();
+
+        $('#item_Code').val(itemCode);
+        $('#item_Name').val(itemName);
+        $('#item_Price').val(itemPrice);
+        $('#qty').val(qty);
+    });
+
+
+</script>
+</body>
+</html>

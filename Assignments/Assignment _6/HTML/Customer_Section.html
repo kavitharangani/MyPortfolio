@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,POS System,kavindya">
+    <meta name="description" content="My personal idea">
+    <meta name="revised" content="Customer page, 12/09/2023">
+    <meta name="author" content="Kavindya Tharangani">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Customer Form</title>
+    <link href="../assets/css/CSS/customer.css" rel="stylesheet">
+    <link href="../assets/css/CSS/header%20other.css" rel="stylesheet">
+    <link href="../assets/css/CSS/header.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="../assets/img/Home%20icon.png" alt="">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <img src="../assets/img/customer%20icon.png" alt="" class="cus">
+                    <a class="nav-link active" aria-current="page" href="Customer_Section.html">Customer</a>
+
+                    <img src="../assets/img/item%20icon.png" alt="" class="item">
+                    <a class="nav-link active" aria-current="page" href="Item_Section.html">Item</a>
+
+                    <img src="../assets/img/order%20icon.png" alt="" class="order">
+                    <a class="nav-link active" aria-current="page" href="Order_Section.html">Order</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<br>
+<section class="content-section" id="manage_customer">
+    <h1 class="main">
+        Customer Manage <i class='bx bx-user-plus'></i>
+    </h1>
+    <hr style="color: black; border: 1px solid black; width: 100%">
+
+    <div class="row">
+        <h1 class="title" style="font-size: 30px ; font-style: italic">
+            Add Form Customer <i class='bx bx-user-plus'></i>
+        </h1>
+        <hr style="color: black; border: 1px solid black; width: 100% ">
+
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="data">
+            <br>
+            <div class="col-md-4">
+                    <label for="customer_Id" class="form-label">Customer ID</label>
+                    <input type="text" class="form-control" id="customer_Id" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="customer_Name" class="form-label">Customer Name</label>
+                    <input type="text" class="form-control" id="customer_Name" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="customer_Address" class="form-label">Customer Address</label>
+                    <input type="text" class="form-control" id="customer_Address" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="customer_Contact" class="form-label">Customer Contact</label>
+                    <input type="text" class="form-control" id="customer_Contact" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <button type="submit" class="btn btn-success" id="submit">Submit</button>
+                    <button type="button" class="btn btn-primary" id="update">Update</button>
+                    <button type="button" class="btn btn-danger" id="remove">Delete</button>
+                    <button type="button" class="btn btn-warning" id="reset">Reset</button>
+                </div>
+            <br><br>
+
+        </div>
+        <div class="col col-xl-6 col-lg-6  col-md-6 col-sm-12 col-12" id="tabel">
+            <table class="table mt-5" border="5px">
+                <br><br>
+                <div class="search_section">
+                    <button class="btn btn-primary clear" id="search">search</button>
+                    <br>
+                    <input class="form-control" id="search_Customer" name='search' placeholder="C001"
+                           required type="text">
+                    <br></div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Contact</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-group-divider" id="student_table_body">
+
+                    <tr>
+                        <td scope="row">C001</td>
+                        <td>Kavi</td>
+                        <td>Kurunegala</td>
+                        <td>0714741714</td>
+                    </tr>
+                    </tbody>
+                    </table>
+            </table>
+        </div>
+    </div>
+</section>
+
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/lib/jquery.min.js"></script>
+
+<script>
+
+    //submit
+    $("#submit").on('click', ()=>{
+        let customerId =$('#customer_Id').val();
+        let customerName=$('#customer_Name').val();
+        let customerAddress=$('#customer_Address').val();
+        let customerContact=$('#customer_Contact').val();
+
+        console.log('Customer ID: ' + customerId);
+        console.log('Customer Name: ' + customerName);
+        console.log('Customer Address: ' + customerAddress);
+        console.log('Customer Contact: ' + customerContact);
+
+
+        var newRow = $("<tr>");
+
+        newRow.append("<td>" + customerId + "</td>");
+        newRow.append("<td>" + customerName + "</td>");
+        newRow.append("<td>" + customerAddress + "</td>");
+        newRow.append("<td>" + customerContact + "</td>");
+
+        $("#student_table_body").append(newRow);
+
+    })
+
+    // update
+    $("#update").on('click', ()=>{
+        let customerId =$('#customer_Id').val();
+        let customerName=$('#customer_Name').val();
+        let customerAddress=$('#customer_Address').val();
+        let customerContact=$('#customer_Contact').val();
+
+        let record = `<td class="Customer ID:">${customerId}</td><td class="Customer Name:">${customerName}</td> <td class="Customer Address:">${customerAddress}</td><td class="Customer Contact:">${customerContact}</td>`;
+
+        $("tbody>tr").eq(row_index).html(record)
+    })
+
+
+    //Delete
+    $("#remove").on('click', () => {
+
+        $("tbody>tr").eq(row_index).remove();
+    })
+
+
+    //reset
+    $("#reset").on('click', () => {
+        // my code
+        $('#customer_Id').val('');
+        $('#customer_Name').val('');
+        $('#customer_Address').val('');
+        $('#customer_Contact').val('');
+
+    })
+
+
+    //search
+    $("#search").on('click', () => {
+        let customerId = $('#customer_Id').val();
+
+        $("tbody>tr").each(function () {
+            let row = $(this);
+            let currentCustomerId = row.find(".customer-id").text();
+
+            if (currentCustomerId === customerId) {
+                let customerName = row.find(".customer-name").text();
+                let customerAddress = row.find(".customer-address").text();
+                let customerContact = row.find(".customer-contact").text();
+
+                $('#customer_Name').val(customerName);
+                $('#customer_Address').val(customerAddress);
+                $('#customer_Contact').val(customerContact);
+
+                return true;
+            }
+        });
+    });
+
+
+
+    $("#search").on('click', function (){
+        let customerId = $("#search-input").val();
+
+        $('#customer_Id').val(customerId);
+
+        // let customerId = $(this).find("td:eq(0)").text();
+        let customerName = $(this).find("td:eq(1)").text();
+        let customerAddress = $(this).find("td:eq(2)").text();
+        let customerContact = $(this).find("td:eq(3)").text();
+
+        $('#customer_Id').val(customerId);
+        $('#customer_Name').val(customerName);
+        $('#customer_Address').val(customerAddress);
+        $('#customer_Contact').val(customerContact);
+    })
+
+
+    // $("#search-button").click(function() {
+    //     let customerId = $("#search-input").val();
+    //     $('#customer_Id').val(customerId);
+    //
+    //     $('#customer_Id').val(customerId);
+    //     $('#customer_Name').val(customerName);
+    //     $('#customer_Address').val(customerAddress);
+    //     $('#customer_Contact').val(customerContact);
+    //
+    //     // Show the customer details container
+    //     $(".customer-details").show();
+    // });
+
+
+    //click
+    $("tbody").on("click", "tr", function () {
+        row_index =$(this).index();
+
+        let customerId = $(this).find("td:eq(0)").text();
+        let customerName = $(this).find("td:eq(1)").text();
+        let customerAddress = $(this).find("td:eq(2)").text();
+        let customerContact = $(this).find("td:eq(3)").text();
+
+        $('#customer_Id').val(customerId);
+        $('#customer_Name').val(customerName);
+        $('#customer_Address').val(customerAddress);
+        $('#customer_Contact').val(customerContact);
+    });
+
+
+</script>
+</body>
+</html>
